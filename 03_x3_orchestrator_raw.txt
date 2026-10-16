@@ -1,0 +1,5 @@
+X3 subprocesses 15/60 completed
+X3 subprocesses 30/60 completed
+X3 subprocesses 45/60 completed
+X3 subprocesses 60/60 completed
+X3 complete: 60 measurements; 4 groups; all reference checks passed=True

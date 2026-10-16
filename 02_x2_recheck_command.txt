@@ -1,0 +1,1 @@
+COMMAND: python recheck_x2_full_path.py

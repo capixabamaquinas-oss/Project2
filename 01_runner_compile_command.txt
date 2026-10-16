@@ -1,0 +1,1 @@
+COMMAND: python -m py_compile <runner.py>

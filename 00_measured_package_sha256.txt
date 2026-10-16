@@ -1,0 +1,10 @@
+SHA-256 of Python package files in original source immediately before measurements:
+72179c81b57ff7c7e1f74cbd0043f9ebd0d82be4d536b9151c020000195eaeca  original/babel_pura/__init__.py
+23c3bdd3f21dc8d25e026fa79a820077e28fc5ef450322540ea6550388e46924  original/babel_pura/address.py
+6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6  original/babel_pura/codec.py
+553c887beabd5768bb97b3b1c7b8f3fb41e6c7346d129cce82311e1648080c4f  original/babel_pura/limits.py
+SHA-256 of disposable source copy:
+72179c81b57ff7c7e1f74cbd0043f9ebd0d82be4d536b9151c020000195eaeca  source-copy/babel_pura/__init__.py
+23c3bdd3f21dc8d25e026fa79a820077e28fc5ef450322540ea6550388e46924  source-copy/babel_pura/address.py
+6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6  source-copy/babel_pura/codec.py
+553c887beabd5768bb97b3b1c7b8f3fb41e6c7346d129cce82311e1648080c4f  source-copy/babel_pura/limits.py

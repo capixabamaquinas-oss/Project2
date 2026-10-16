@@ -1,0 +1,361 @@
+X3: one fresh Python subprocess per observation.
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 12
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.622899985406548, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26562560, "pid": 10856, "repeat": 12, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 7
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.3077999940142035, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22200320, "pid": 11152, "repeat": 7, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 5
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.131300036329776, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23810048, "pid": 14832, "repeat": 5, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 14
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.642100015189499, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26558464, "pid": 8928, "repeat": 14, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 4
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.74570004735142, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26550272, "pid": 3992, "repeat": 4, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 12
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0595000134781003, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23736320, "pid": 8512, "repeat": 12, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 6
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0467999749816954, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23789568, "pid": 12664, "repeat": 6, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 11
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.2286999630741775, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23748608, "pid": 17620, "repeat": 11, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 10
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0494999955408275, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23609344, "pid": 10960, "repeat": 10, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 10
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.335099969059229, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22339584, "pid": 23112, "repeat": 10, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 13
+exit_code=0
+stdout:
+{"elapsed_ms": 33.18909998051822, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39206912, "pid": 23220, "repeat": 13, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 2
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.615499987266958, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26619904, "pid": 15808, "repeat": 2, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 15
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.584399983286858, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26308608, "pid": 276, "repeat": 15, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 13
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.608499992173165, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26382336, "pid": 25392, "repeat": 13, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 8
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.587800009176135, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26304512, "pid": 25508, "repeat": 8, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 11
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.2900000330992043, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22134784, "pid": 13992, "repeat": 11, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 8
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.121500019915402, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23801856, "pid": 8452, "repeat": 8, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 2
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 4.054200020618737, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22331392, "pid": 23256, "repeat": 2, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 4
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0526999616995454, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23519232, "pid": 20060, "repeat": 4, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 9
+exit_code=0
+stdout:
+{"elapsed_ms": 30.030099966097623, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39481344, "pid": 7980, "repeat": 9, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 6
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.284899994265288, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22441984, "pid": 22772, "repeat": 6, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 1
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.666699969675392, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26509312, "pid": 9952, "repeat": 1, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 1
+exit_code=0
+stdout:
+{"elapsed_ms": 29.736800002865493, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39530496, "pid": 13000, "repeat": 1, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 3
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.285099995788187, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22401024, "pid": 22880, "repeat": 3, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 1
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.291099983267486, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22220800, "pid": 15012, "repeat": 1, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 9
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.56630002008751, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26570752, "pid": 20560, "repeat": 9, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 13
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0940999859012663, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23760896, "pid": 25120, "repeat": 13, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 12
+exit_code=0
+stdout:
+{"elapsed_ms": 28.676699963398278, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39235584, "pid": 25148, "repeat": 12, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 2
+exit_code=0
+stdout:
+{"elapsed_ms": 30.834199977107346, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39489536, "pid": 24216, "repeat": 2, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 9
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.544700040947646, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23805952, "pid": 2256, "repeat": 9, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 14
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0576999997720122, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23494656, "pid": 6852, "repeat": 14, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 6
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.573299956973642, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26566656, "pid": 18836, "repeat": 6, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 11
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.5958999544382095, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26501120, "pid": 23716, "repeat": 11, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 14
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.2865000064484775, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22355968, "pid": 6904, "repeat": 14, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 4
+exit_code=0
+stdout:
+{"elapsed_ms": 29.945600021164864, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39530496, "pid": 24196, "repeat": 4, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 15
+exit_code=0
+stdout:
+{"elapsed_ms": 30.858599988278, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39424000, "pid": 9040, "repeat": 15, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 11
+exit_code=0
+stdout:
+{"elapsed_ms": 28.77249999437481, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39448576, "pid": 18972, "repeat": 11, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 9
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.3117000237107277, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22355968, "pid": 23244, "repeat": 9, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 1
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0497999978251755, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23511040, "pid": 24964, "repeat": 1, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 3
+exit_code=0
+stdout:
+{"elapsed_ms": 32.50289999414235, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39399424, "pid": 21796, "repeat": 3, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 8
+exit_code=0
+stdout:
+{"elapsed_ms": 29.97460000915453, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39362560, "pid": 24484, "repeat": 8, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 7
+exit_code=0
+stdout:
+{"elapsed_ms": 29.939599975477904, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39178240, "pid": 6136, "repeat": 7, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 12
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.279900014400482, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22130688, "pid": 19692, "repeat": 12, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 7
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 6.698100012727082, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26566656, "pid": 10928, "repeat": 7, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 2
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.124500042758882, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23818240, "pid": 8244, "repeat": 2, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 3
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.0471999780274928, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23588864, "pid": 4196, "repeat": 3, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 10
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.6669000294059515, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26656768, "pid": 1352, "repeat": 10, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 4
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 4.282200010493398, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22212608, "pid": 23760, "repeat": 4, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 15
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.3024000111036003, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22245376, "pid": 8804, "repeat": 15, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 8
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.2871000110171735, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22130688, "pid": 9276, "repeat": 8, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 14
+exit_code=0
+stdout:
+{"elapsed_ms": 30.34779999870807, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39399424, "pid": 3624, "repeat": 14, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 5
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.612999968230724, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26525696, "pid": 6448, "repeat": 5, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 hex_text 3
+exit_code=0
+stdout:
+{"crc32": 3224972992, "elapsed_ms": 4.591100034303963, "matches_reference": true, "metric": "hex_text", "peak_working_set_bytes": 26341376, "pid": 20484, "repeat": 3, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 15
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.1372999656014144, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23707648, "pid": 20316, "repeat": 15, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 5
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.2897999733686447, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22339584, "pid": 17016, "repeat": 5, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 5
+exit_code=0
+stdout:
+{"elapsed_ms": 29.66459997696802, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39190528, "pid": 8216, "repeat": 5, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 base64url_text 7
+exit_code=0
+stdout:
+{"crc32": 2599380365, "elapsed_ms": 3.045499965082854, "matches_reference": true, "metric": "base64url_text", "peak_working_set_bytes": 23515136, "pid": 25200, "repeat": 7, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 bytes 13
+exit_code=0
+stdout:
+{"crc32": 2918060746, "elapsed_ms": 2.350200025830418, "matches_reference": true, "metric": "bytes", "peak_working_set_bytes": 22114304, "pid": 16052, "repeat": 13, "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 6
+exit_code=0
+stdout:
+{"elapsed_ms": 30.27510002721101, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39247872, "pid": 23388, "repeat": 6, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x3 baseline 10
+exit_code=0
+stdout:
+{"elapsed_ms": 34.390199987683445, "hex_chars": 8388608, "matches_reference": true, "metric": "baseline", "output_bytes": 4194304, "peak_working_set_bytes": 39469056, "pid": 284, "repeat": 10, "sha256": "a2b3fe46c8c1f2443cd3106568bfe97d9b40f6188311d6bcdf575f1b348bd889", "suite": "X3"}
+stderr:
+---

@@ -1,0 +1,15 @@
+=== SHA-256 — arquivos do pacote medido (antes dos experimentos) ===
+b1f37ccfdbe3f481ad44d018a9bbc195b00b796430c9054421e552c1d08bc403  babel_pura\__init__.py
+4339c668f2b397518028a9b0ccb1d2733da4c759b5995ed69083bd371cf72614  babel_pura\__pycache__\__init__.cpython-312.pyc
+a120a5f27d4fb6412cb603c7bbcd63844f761886d35fd9ead4713ee79fe35d4d  babel_pura\__pycache__\address.cpython-312.pyc
+7e823b44c7c8f2dce07045179d0a6522503e9a1d1847134ef2bb3e10ab6d9acb  babel_pura\__pycache__\codec.cpython-312.pyc
+c3fd93b8a7aaeb273895d6b71bebba67374a89de98478899f44a8c820d4e856c  babel_pura\__pycache__\limits.cpython-312.pyc
+cd4e5e2514c9ab66d50ffe9f530260b42d08b41bde214e419a6f0a2a280cd001  babel_pura\address.py
+6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6  babel_pura\codec.py
+ee1ae58d0b7169fbbdbf02061d71659bd226047d72332b0c1dd5a67638f2f34f  babel_pura\limits.py
+=== Python ===
+Python 3.12.3
+=== Sistema operacional ===
+Caption=; Version=; Build=; Architecture=
+=== CPU ===
+ProcessorPackages=0; TotalPhysicalCores=; TotalLogicalProcessors=

@@ -1,0 +1,1 @@
+COMMAND: python aggregate_x2.py

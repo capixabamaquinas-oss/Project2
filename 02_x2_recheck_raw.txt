@@ -1,0 +1,4 @@
+full-address recheck 7/21 completed
+full-address recheck 14/21 completed
+full-address recheck 21/21 completed
+{"final_repetitions": 315, "group_sizes_ok": true, "groups": 45, "hashes_all_match": true, "roundtrip_rechecked": 21}

@@ -1,0 +1,127 @@
+Authoritative X2 full-address rows; timer stops before SHA-256 verification; one fresh worker process per observation.
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 1
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2160.988899995573, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220479488, "pid": 8428, "repeat": 1, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 6
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2189.3233000300825, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220262400, "pid": 14856, "repeat": 6, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 3
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2094.028400024399, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220696576, "pid": 15964, "repeat": 3, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 7
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2283.4162000217475, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220602368, "pid": 1256, "repeat": 7, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 3
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2073.212900024373, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220405760, "pid": 20560, "repeat": 3, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 2
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2048.361000022851, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220553216, "pid": 20676, "repeat": 2, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 5
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2044.9407999985851, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220413952, "pid": 11820, "repeat": 5, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 4
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2046.9373999512754, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220323840, "pid": 6728, "repeat": 4, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 3
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2062.1504000155255, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220581888, "pid": 18836, "repeat": 3, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 4
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2065.6774999806657, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220557312, "pid": 5676, "repeat": 4, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 5
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2106.686700019054, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220704768, "pid": 20540, "repeat": 5, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 7
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2088.176800054498, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220622848, "pid": 16560, "repeat": 7, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 7
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2024.0085999830626, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220557312, "pid": 25456, "repeat": 7, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 6
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2091.0297999507748, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220332032, "pid": 19760, "repeat": 6, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 5
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2115.863800048828, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220401664, "pid": 22008, "repeat": 5, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 2
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2152.6612999732606, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220397568, "pid": 18572, "repeat": 2, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 4
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2098.0363999842666, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220528640, "pid": 23652, "repeat": 4, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 6
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2039.923899981659, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220340224, "pid": 4612, "repeat": 6, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_00 roundtrip full_address "" crc32 1
+exit_code=0
+stdout:
+{"actual_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "case": "all_00", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2017.1091000083834, "expected_sha256": "080acf35a507ac9849cfcba47dc2ad83e01b75663a516279c8b9d243b719643e", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220401664, "pid": 15776, "repeat": 1, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 random roundtrip full_address "" crc32 1
+exit_code=0
+stdout:
+{"actual_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "case": "random", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2047.5096000009216, "expected_sha256": "58b9c3b857ddaacdf9d98e6119056cc2d80eb3dd2ac657de8e1db006bea12412", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220540928, "pid": 12436, "repeat": 1, "strategy": "full_address", "suite": "X2"}
+stderr:
+---
+$ "C:\Users\User PC\AppData\Local\Programs\Python\Python312\python.exe" "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py" worker-x2 all_ff roundtrip full_address "" crc32 2
+exit_code=0
+stdout:
+{"actual_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "case": "all_ff", "checksum": "crc32", "chunk_size": null, "elapsed_ms": 2089.1226999810897, "expected_sha256": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d", "identical": true, "operation": "roundtrip", "peak_working_set_bytes": 220532736, "pid": 22508, "repeat": 2, "strategy": "full_address", "suite": "X2"}
+stderr:
+---

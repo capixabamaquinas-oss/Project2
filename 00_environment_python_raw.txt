@@ -1,0 +1,10 @@
+python --version
+Python 3.12.3
+platform CPU query
+python=3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+platform=Windows-10-10.0.19045-SP0
+processor='Intel64 Family 6 Model 165 Stepping 3, GenuineIntel'
+logical_cpu_count=8
+CPU registry query
+ProcessorNameString=Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz
+CPU topology: Python os.cpu_count() reports 8 logical processors; CIM physical-core query was denied by the execution environment.

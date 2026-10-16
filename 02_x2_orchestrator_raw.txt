@@ -1,0 +1,29 @@
+X2 subprocesses 25/315 completed
+X2 subprocesses 50/315 completed
+X2 subprocesses 75/315 completed
+X2 subprocesses 100/315 completed
+X2 subprocesses 125/315 completed
+X2 subprocesses 150/315 completed
+X2 subprocesses 175/315 completed
+X2 subprocesses 200/315 completed
+X2 subprocesses 225/315 completed
+X2 subprocesses 250/315 completed
+X2 subprocesses 275/315 completed
+X2 subprocesses 300/315 completed
+X2 subprocesses 315/315 completed
+Traceback (most recent call last):
+  File "C:\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py", line 167, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "C:\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py", line 164, in main
+    elif sys.argv[1:]==["x2"]: run_x2()
+                               ^^^^^^^^
+  File "C:\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\X2-X3_repeat_dispersion_20261016\runner.py", line 130, in run_x2
+    w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(rows)
+                                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User PC\AppData\Local\Programs\Python\Python312\Lib\csv.py", line 167, in writerows
+    return self.writer.writerows(map(self._dict_to_list, rowdicts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User PC\AppData\Local\Programs\Python\Python312\Lib\csv.py", line 159, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: 'suite'

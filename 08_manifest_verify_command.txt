@@ -1,0 +1,1 @@
+COMMAND: independently verify every SHA256SUMS.txt entry with Get-FileHash; report count, mismatches, and manifest SHA

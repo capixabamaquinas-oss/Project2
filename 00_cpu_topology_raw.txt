@@ -1,0 +1,5 @@
+system=Windows-10-10.0.19045-SP0
+cpu=Intel(R) Core(TM) i3-10100 CPU @ 3.60GHz
+physical_cores=4
+logical_processors=8
+processor_records=4

@@ -1,0 +1,1 @@
+COMMAND: python cpu_topology.py

@@ -1,0 +1,1 @@
+COMMAND: SHA-256 every file below run dir except SHA256SUMS.txt and captured manifest stdout files; store relative paths
