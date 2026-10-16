@@ -1,0 +1,6 @@
+file,size_bytes,seed,sha256,distinct_byte_values,byte_entropy_bits_per_symbol,source_kind
+seeded_random_1024.bin,1024,20261015,6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01,253,7.820253855076192,"random.Random(seed).randbytes; non-repeating fixture class, not a repeated-byte block"
+seeded_random_65536.bin,65536,20261016,872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa,256,7.997175746010796,"random.Random(seed).randbytes; non-repeating fixture class, not a repeated-byte block"
+seeded_random_1048576.bin,1048576,20261017,05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2,256,7.999808888809191,"random.Random(seed).randbytes; non-repeating fixture class, not a repeated-byte block"
+seeded_random_4194304.bin,4194304,20261018,8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb,256,7.999958761059797,"random.Random(seed).randbytes; non-repeating fixture class, not a repeated-byte block"
+seeded_random_16777216.bin,16777216,20261019,146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6,256,7.999987998385841,"random.Random(seed).randbytes; non-repeating fixture class, not a repeated-byte block"

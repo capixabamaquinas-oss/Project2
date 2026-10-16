@@ -1,0 +1,3 @@
+$run = 'C:\OllamaLimit\Sei l' + [char]0x00E1 + '\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015'
+$scriptPath = Join-Path $run '05_extract_experiment_table.ps1'
+& $scriptPath 2>&1 | Tee-Object -FilePath (Join-Path $run '05_extract_experiment_table_raw.txt')

@@ -1,0 +1,56 @@
+BASELINE_FILE_COUNT=33
+BASELINE_MATCH_COUNT=33
+BASELINE_MISSING=[]
+BASELINE_CHANGED=[]
+SOURCE_COPY_FILES=5
+SOURCE_COPY_MATCH_ORIGINAL=5
+X1_4M_FORMATS=
+{"case": "seeded_random_4194304", "format": "hex-lower", "text_chars": "8388608", "payload_to_input_ratio": "2.0", "encode_median_ms": "25.3178", "decode_median_ms": "27.5384", "roundtrip": "True"}
+{"case": "seeded_random_4194304", "format": "base32-no-padding", "text_chars": "6710887", "payload_to_input_ratio": "1.6000001430511475", "encode_median_ms": "783.6276", "decode_median_ms": "857.3779", "roundtrip": "True"}
+{"case": "seeded_random_4194304", "format": "base64url-no-padding", "text_chars": "5592406", "payload_to_input_ratio": "1.3333334922790527", "encode_median_ms": "22.4076", "decode_median_ms": "26.3134", "roundtrip": "True"}
+X2_16M=
+{"all_repeats_same_output": "True", "chunk_size": "", "median_seconds": 0.12793319998309016, "method": "monolithic", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 78.32, "peak_ws_MiB": 84.66, "peak_ws_delta_MiB": 67.22}
+{"all_repeats_same_output": "True", "chunk_size": "4096", "median_seconds": 1.7382810999988578, "method": "segmented_reverse", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 13.03, "peak_ws_MiB": 19.47, "peak_ws_delta_MiB": 1.93}
+{"all_repeats_same_output": "True", "chunk_size": "65536", "median_seconds": 3.745957700011786, "method": "segmented_reverse", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 12.77, "peak_ws_MiB": 19.26, "peak_ws_delta_MiB": 1.93}
+{"all_repeats_same_output": "True", "chunk_size": "1048576", "median_seconds": 1.9491018999833614, "method": "segmented_reverse", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 14.91, "peak_ws_MiB": 21.4, "peak_ws_delta_MiB": 4.04}
+{"all_repeats_same_output": "True", "chunk_size": "4096", "median_seconds": 2.8478997999918647, "method": "segmented_two_pass", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 12.84, "peak_ws_MiB": 19.26, "peak_ws_delta_MiB": 1.93}
+{"all_repeats_same_output": "True", "chunk_size": "65536", "median_seconds": 2.673527400009334, "method": "segmented_two_pass", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 12.79, "peak_ws_MiB": 19.35, "peak_ws_delta_MiB": 1.93}
+{"all_repeats_same_output": "True", "chunk_size": "1048576", "median_seconds": 2.962683299963828, "method": "segmented_two_pass", "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_MiB": 14.9, "peak_ws_MiB": 21.6, "peak_ws_delta_MiB": 4.02}
+X3_4M_BASE64URL=
+{"algorithm": "crc32", "checksum_bytes": "4", "checksum_hex_chars": "8", "coverage": "bytes", "format": "format-independent", "median_checksum_ms": "2.2667"}
+{"algorithm": "crc32", "checksum_bytes": "4", "checksum_hex_chars": "8", "coverage": "text", "format": "base64url-no-padding", "median_checksum_ms": "3.2045"}
+{"algorithm": "crc32", "checksum_bytes": "8", "checksum_hex_chars": "16", "coverage": "both", "format": "base64url-no-padding", "median_checksum_ms": "7.0379"}
+{"algorithm": "sha256", "checksum_bytes": "32", "checksum_hex_chars": "64", "coverage": "bytes", "format": "format-independent", "median_checksum_ms": "8.844"}
+{"algorithm": "sha256", "checksum_bytes": "32", "checksum_hex_chars": "64", "coverage": "text", "format": "base64url-no-padding", "median_checksum_ms": "11.8331"}
+{"algorithm": "sha256", "checksum_bytes": "64", "checksum_hex_chars": "128", "coverage": "both", "format": "base64url-no-padding", "median_checksum_ms": "20.0521"}
+{"algorithm": "sha256_128", "checksum_bytes": "16", "checksum_hex_chars": "32", "coverage": "bytes", "format": "format-independent", "median_checksum_ms": "8.8575"}
+{"algorithm": "sha256_128", "checksum_bytes": "16", "checksum_hex_chars": "32", "coverage": "text", "format": "base64url-no-padding", "median_checksum_ms": "12.192"}
+{"algorithm": "sha256_128", "checksum_bytes": "32", "checksum_hex_chars": "64", "coverage": "both", "format": "base64url-no-padding", "median_checksum_ms": "20.472"}
+{"algorithm": "blake2s_128", "checksum_bytes": "16", "checksum_hex_chars": "32", "coverage": "bytes", "format": "format-independent", "median_checksum_ms": "14.6981"}
+{"algorithm": "blake2s_128", "checksum_bytes": "16", "checksum_hex_chars": "32", "coverage": "text", "format": "base64url-no-padding", "median_checksum_ms": "14.2142"}
+{"algorithm": "blake2s_128", "checksum_bytes": "32", "checksum_hex_chars": "64", "coverage": "both", "format": "base64url-no-padding", "median_checksum_ms": "27.3066"}
+X5_CASES=
+{"case": "limit_4095", "elapsed_seconds": "0.00022960000205785036", "format_decode_calls": "1", "input_bytes": "4095", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12472320", "peak_working_set_bytes": "18501632", "peak_working_set_delta_bytes": "352256"}
+{"case": "limit_4095", "elapsed_seconds": "0.00019460002658888698", "format_decode_calls": "1", "input_bytes": "4095", "mode": "preflight", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "13078528", "peak_working_set_bytes": "18411520", "peak_working_set_delta_bytes": "299008"}
+{"case": "limit_4096", "elapsed_seconds": "0.0001990000018849969", "format_decode_calls": "1", "input_bytes": "4096", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12431360", "peak_working_set_bytes": "18444288", "peak_working_set_delta_bytes": "278528"}
+{"case": "limit_4096", "elapsed_seconds": "0.000692599976900965", "format_decode_calls": "1", "input_bytes": "4096", "mode": "preflight", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12886016", "peak_working_set_bytes": "18284544", "peak_working_set_delta_bytes": "262144"}
+{"case": "limit_4097", "elapsed_seconds": "0.0004746000049635768", "format_decode_calls": "1", "input_bytes": "4097", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12582912", "peak_working_set_bytes": "18702336", "peak_working_set_delta_bytes": "270336"}
+{"case": "limit_4097", "elapsed_seconds": "1.2699980288743973e-05", "format_decode_calls": "0", "input_bytes": "4097", "mode": "preflight", "outcome": "preflight_rejected_before_parser", "parser_calls": "0", "peak_commit_bytes": "12865536", "peak_working_set_bytes": "18583552", "peak_working_set_delta_bytes": "225280"}
+{"case": "truncated_hex", "elapsed_seconds": "3.320001997053623e-05", "format_decode_calls": "1", "input_bytes": "9", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12578816", "peak_working_set_bytes": "18767872", "peak_working_set_delta_bytes": "315392"}
+{"case": "garbage_hex", "elapsed_seconds": "3.370002377778292e-05", "format_decode_calls": "1", "input_bytes": "8", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12607488", "peak_working_set_bytes": "18792448", "peak_working_set_delta_bytes": "286720"}
+{"case": "wrong_prefix", "elapsed_seconds": "1.6600009985268116e-05", "format_decode_calls": "0", "input_bytes": "8", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "12713984", "peak_working_set_bytes": "18628608", "peak_working_set_delta_bytes": "303104"}
+{"case": "huge_garbage_8m", "elapsed_seconds": "0.42723769997246563", "format_decode_calls": "0", "input_bytes": "8388608", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": "1", "peak_commit_bytes": "28594176", "peak_working_set_bytes": "35205120", "peak_working_set_delta_bytes": "12288"}
+{"case": "huge_valid_hex_8m", "elapsed_seconds": "0.48614709998946637", "format_decode_calls": "1", "input_bytes": "8388608", "mode": "direct", "outcome": "accepted", "parser_calls": "1", "peak_commit_bytes": "58044416", "peak_working_set_bytes": "64647168", "peak_working_set_delta_bytes": "29388800"}
+X6_FILES=
+{"file": "address_py.py", "input_bytes": "3463", "input_sha256": "0b041bbc3451cf085c85a01cf7b2758c61fd98c05bc7451b7a3dfbc69feddd4a", "format": "base64url-no-padding", "index_text_chars": "4618", "draft_address_chars_no_checksum": "4624", "draft_address_to_file_ratio": "1.335258446433728", "roundtrip": "True"}
+{"file": "codec_py.py", "input_bytes": "11429", "input_sha256": "6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6", "format": "base64url-no-padding", "index_text_chars": "15239", "draft_address_chars_no_checksum": "15245", "draft_address_to_file_ratio": "1.3338874792195292", "roundtrip": "True"}
+{"file": "dossier_v2_docx.docx", "input_bytes": "55879", "input_sha256": "3a12823e5110b979849f5d7a0da84af92d4aeaf4e269e0eee9aada944b25094c", "format": "base64url-no-padding", "index_text_chars": "74506", "draft_address_chars_no_checksum": "74512", "draft_address_to_file_ratio": "1.3334526387372716", "roundtrip": "True"}
+{"file": "dossier_v3_docx.docx", "input_bytes": "157130", "input_sha256": "b628be6e4cc301d512a27c28bfdeff3bd63d98c8b127ffe1e8d5625058f6f094", "format": "base64url-no-padding", "index_text_chars": "209507", "draft_address_chars_no_checksum": "209513", "draft_address_to_file_ratio": "1.3333736396614269", "roundtrip": "True"}
+{"file": "dossier_v3_extracted.txt", "input_bytes": "27108", "input_sha256": "917d6a0c4836793b54aa19a43b763e0a5cd7014678e9f98e1627f92e01005a4d", "format": "base64url-no-padding", "index_text_chars": "36144", "draft_address_chars_no_checksum": "36150", "draft_address_to_file_ratio": "1.3335546702080567", "roundtrip": "True"}
+{"file": "test_address_py.py", "input_bytes": "8013", "input_sha256": "60f5cc53a084681ced22f3d70dfdd99947ad0e743991c6f91ea6505f68466c0e", "format": "base64url-no-padding", "index_text_chars": "10684", "draft_address_chars_no_checksum": "10690", "draft_address_to_file_ratio": "1.334082116560589", "roundtrip": "True"}
+{"file": "test_codec_py.py", "input_bytes": "11624", "input_sha256": "af446eb7192dc2f1cacfc209b824403eb74e96e4cb1b7bc166f768c3b3d8f10a", "format": "base64url-no-padding", "index_text_chars": "15499", "draft_address_chars_no_checksum": "15505", "draft_address_to_file_ratio": "1.3338781830695114", "roundtrip": "True"}
+X2_DECODE_VALIDATION_FAIL_COUNT=0
+X2_ROUNDTRIP_FAIL_COUNT=0
+X2_OUTPUT_MISMATCH_COUNT=0
+X2_WORKER_FAIL_COUNT=0
+FINAL_SUMMARY={"edge_failed": 0, "edge_passed": 99, "edge_rows": 99, "x1_failed": 0, "x1_passed": 39, "x1_records": 39, "x2_x4_records": 35, "x3_records": 140, "x5_records": 11, "x6_failed": 0, "x6_passed": 21, "x6_records": 21}

@@ -1,0 +1,27 @@
+[
+  {
+    "relative_path": "babel_pura/__init__.py",
+    "size_bytes": 906,
+    "sha256": "c185775f60eafea9c36eb8c69f2d39c2c7f591db97f71ffd11ea773bf452250b"
+  },
+  {
+    "relative_path": "babel_pura/address.py",
+    "size_bytes": 3463,
+    "sha256": "0b041bbc3451cf085c85a01cf7b2758c61fd98c05bc7451b7a3dfbc69feddd4a"
+  },
+  {
+    "relative_path": "babel_pura/codec.py",
+    "size_bytes": 11429,
+    "sha256": "6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6"
+  },
+  {
+    "relative_path": "tests/test_address.py",
+    "size_bytes": 8013,
+    "sha256": "60f5cc53a084681ced22f3d70dfdd99947ad0e743991c6f91ea6505f68466c0e"
+  },
+  {
+    "relative_path": "tests/test_codec.py",
+    "size_bytes": 11624,
+    "sha256": "af446eb7192dc2f1cacfc209b824403eb74e96e4cb1b7bc166f768c3b3d8f10a"
+  }
+]

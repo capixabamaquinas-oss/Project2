@@ -1,0 +1,4 @@
+$run = 'C:\OllamaLimit\Sei l' + [char]0x00E1 + '\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015'
+$python = 'C:\Users\User PC\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+& $python -X utf8 -I (Join-Path $run '01_v2_section_71.py') 2>&1 | Tee-Object -FilePath (Join-Path $run '01_v2_section_71_raw.txt')
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

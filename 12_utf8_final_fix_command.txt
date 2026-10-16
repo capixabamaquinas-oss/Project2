@@ -1,0 +1,1 @@
+python.exe -X utf8 -I 12_utf8_final_fix.py

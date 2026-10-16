@@ -1,0 +1,1 @@
+python.exe -X utf8 -I 14_build_sha_manifest.py

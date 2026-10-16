@@ -1,0 +1,17 @@
+{
+  "baseline_original_files": 33,
+  "baseline_hash_matches": 33,
+  "baseline_missing": [],
+  "baseline_changed": [],
+  "source_copy_files": 5,
+  "source_copy_mismatches": [],
+  "edge_passed": 99,
+  "x1_passed": 39,
+  "x2_aggregate_cases": 35,
+  "x3_checksum_rows": 140,
+  "x5_hostile_rows": 11,
+  "x5_corrected_boundary_rows": 6,
+  "x6_passed": 21,
+  "report_sha256": "ce577d5c10bdc916ecbfcf82f20b8c0fe56bb9353348c90df007f04cabb4e696",
+  "status": "PASS"
+}

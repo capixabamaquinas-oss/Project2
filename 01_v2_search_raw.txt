@@ -1,0 +1,41 @@
+[22] Heading1 0. Revisao recebida e disposicao dos achados
+[61] Heading1 1. Finalidade, escopo e regra de separacao
+[86] Heading1 2. Estado epistemico e precedencia
+[94]  Resultado de experimento reproduzivel com ambiente/comando/saida.
+[106] Heading1 3. Objetivo funcional e experiencia do app
+[110] Heading2 3.1 Fluxo minimo
+[112] Heading2 3.2 Requisitos de UX
+[119] Heading2 3.3 Texto versus bytes
+[121] Heading1 4. Nucleo matematico H1 - definicao de referencia
+[123] Heading2 4.1 Codificacao
+[126] Heading2 4.2 Prova curta de bijecao
+[129] Heading2 4.3 Implicacao para implementacao segmentada
+[134] Heading1 5. Indice H1 versus endereco textual do aplicativo
+[149] Heading2 5.1 Risco de erro de digitacao
+[155] Heading2 5.2 Q2 - checksum
+[157] Heading1 6. Representacao textual e custo visivel
+[184] Heading1 7. Limites, parser e resistencia a entradas malformadas
+[186] Heading2 7.1 Regras obrigatorias de desenho
+[193] Heading2 7.2 Limites ainda abertos
+[195] Heading1 8. Arquitetura tecnica proposta
+[220] Heading1 9. Governanca e papeis
+[254] Heading2 9.1 Propriedade das pastas
+[260] Heading1 10. Protocolo anti-alucinacao para auditoria
+[272] Heading1 11. Fluxo corrigido de trabalho e gates
+[319] Heading1 12. Fases do projeto
+[353] Heading1 13. Criterios de aceitacao revisados
+[394] Heading1 14. Matriz minima de testes
+[414] Heading1 15. Registro de riscos revisado
+[449] Heading1 16. Questoes abertas para decisao do Diretor
+[478] Heading1 17. Instrucoes individuais para repasse
+[480] Heading2 17.1 Diretor
+[483] Heading2 17.2 ChatGPT - consultor/arquiteto
+[486] Heading2 17.3 OpenCode - engenheiro
+[489] Heading2 17.4 Claude Code - auditor read-only
+[492] Heading2 17.5 Codex - pesquisador experimental
+[495] Heading2 17.6 Claude - revisor cientifico
+[498] Heading2 17.7 Aider
+[501] Heading1 18. Modelo obrigatorio de entrega
+[503] Heading1 19. Proxima acao operacional
+[508] Heading1 20. Base documental e limites desta V2
+[514] Heading2 20.1 Limites declarados

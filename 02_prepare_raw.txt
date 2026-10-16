@@ -1,0 +1,30 @@
+{
+  "source_copy_files": 5,
+  "x6_real_or_derived_files": 7,
+  "random_fixtures": 5,
+  "edge_vectors": 9,
+  "source_copy_root": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy",
+  "input_manifest": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\input_manifest.json",
+  "source_copy_sha256": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source_copy_sha256.json"
+}
+INPUT real_user_file dossier_v3_docx bytes=157130 sha256=b628be6e4cc301d512a27c28bfdeff3bd63d98c8b127ffe1e8d5625058f6f094
+INPUT real_user_file dossier_v2_docx bytes=55879 sha256=3a12823e5110b979849f5d7a0da84af92d4aeaf4e269e0eee9aada944b25094c
+INPUT real_user_file codec_py bytes=11429 sha256=6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6
+INPUT real_user_file address_py bytes=3463 sha256=0b041bbc3451cf085c85a01cf7b2758c61fd98c05bc7451b7a3dfbc69feddd4a
+INPUT real_user_file test_codec_py bytes=11624 sha256=af446eb7192dc2f1cacfc209b824403eb74e96e4cb1b7bc166f768c3b3d8f10a
+INPUT real_user_file test_address_py bytes=8013 sha256=60f5cc53a084681ced22f3d70dfdd99947ad0e743991c6f91ea6505f68466c0e
+INPUT derived_real_user_text dossier_v3_extracted bytes=27108 sha256=917d6a0c4836793b54aa19a43b763e0a5cd7014678e9f98e1627f92e01005a4d
+INPUT seeded_random seeded_random_1024.bin bytes=1024 sha256=6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01
+INPUT seeded_random seeded_random_65536.bin bytes=65536 sha256=872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa
+INPUT seeded_random seeded_random_1048576.bin bytes=1048576 sha256=05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2
+INPUT seeded_random seeded_random_4194304.bin bytes=4194304 sha256=8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb
+INPUT seeded_random seeded_random_16777216.bin bytes=16777216 sha256=146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6
+INPUT edge_vector empty bytes=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+INPUT edge_vector single_nul bytes=1 sha256=6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+INPUT edge_vector single_ff bytes=1 sha256=a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89
+INPUT edge_vector leading_zeroes bytes=4 sha256=c49c3b8de74455dab32de2efc236ac7f059f99a04f0407fc3f530c56878818a3
+INPUT edge_vector all_byte_values bytes=256 sha256=40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880
+INPUT edge_vector boundary_255 bytes=255 sha256=3f8591112c6bbe5c963965954e293108b7208ed2af893e500d859368c654eabe
+INPUT edge_vector boundary_256 bytes=256 sha256=40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880
+INPUT edge_vector carry_run_ff_64 bytes=64 sha256=8667e718294e9e0df1d30600ba3eeb201f764aad2dad72748643e4a285e1d1f7
+INPUT edge_vector all_zero_4096 bytes=4096 sha256=ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7

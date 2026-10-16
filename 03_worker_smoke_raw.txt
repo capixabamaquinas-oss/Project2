@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015\03_worker_codec.py", line 34, in <module>
+    source_hash=sha(source); before=memory(); t0=time.perf_counter()
+                                    ^^^^^^^^
+  File "C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015\03_worker_codec.py", line 18, in memory
+    if not ok: raise ctypes.WinError(ctypes.get_last_error())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] Identificador inválido.

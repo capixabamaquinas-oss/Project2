@@ -1,0 +1,77 @@
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\limit_4095.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18149376, "detail": "invalid index payload: non-hexadecimal number found in fromhex() arg at position 4089", "elapsed_seconds": 0.00022960000205785036, "format_decode_calls": 1, "input_bytes": 4095, "input_sha256": "7d765c126e48d9630c4a632aa4af3dfa67852a51979472af3f365a1326530441", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12472320, "peak_commit_delta_bytes": 827392, "peak_working_set_bytes": 18501632, "peak_working_set_delta_bytes": 352256}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\limit_4095.txt", "--mode", "preflight", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18112512, "detail": "invalid index payload: non-hexadecimal number found in fromhex() arg at position 4089", "elapsed_seconds": 0.00019460002658888698, "format_decode_calls": 1, "input_bytes": 4095, "input_sha256": "7d765c126e48d9630c4a632aa4af3dfa67852a51979472af3f365a1326530441", "limit_chars": 4096, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "preflight", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 13078528, "peak_commit_delta_bytes": 1609728, "peak_working_set_bytes": 18411520, "peak_working_set_delta_bytes": 299008}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\limit_4096.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18165760, "detail": "index payload is not canonical", "elapsed_seconds": 0.0001990000018849969, "format_decode_calls": 1, "input_bytes": 4096, "input_sha256": "43acdd1ede08e2afb9f06737762d6a6afcc0789c4feeb8ecb37726bce38888bc", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12431360, "peak_commit_delta_bytes": 1290240, "peak_working_set_bytes": 18444288, "peak_working_set_delta_bytes": 278528}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\limit_4096.txt", "--mode", "preflight", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18022400, "detail": "index payload is not canonical", "elapsed_seconds": 0.000692599976900965, "format_decode_calls": 1, "input_bytes": 4096, "input_sha256": "43acdd1ede08e2afb9f06737762d6a6afcc0789c4feeb8ecb37726bce38888bc", "limit_chars": 4096, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "preflight", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12886016, "peak_commit_delta_bytes": 1634304, "peak_working_set_bytes": 18284544, "peak_working_set_delta_bytes": 262144}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\limit_4097.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18432000, "detail": "invalid index payload: non-hexadecimal number found in fromhex() arg at position 4091", "elapsed_seconds": 0.0004746000049635768, "format_decode_calls": 1, "input_bytes": 4097, "input_sha256": "64b2aa90bb97b3651c8dd15f0d0b4b7eb0b40e00f3625bbe55e0836c28cce9d5", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12582912, "peak_commit_delta_bytes": 0, "peak_working_set_bytes": 18702336, "peak_working_set_delta_bytes": 270336}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\limit_4097.txt", "--mode", "preflight", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18358272, "detail": "", "elapsed_seconds": 1.2699980288743973e-05, "format_decode_calls": 0, "input_bytes": 4097, "input_sha256": "64b2aa90bb97b3651c8dd15f0d0b4b7eb0b40e00f3625bbe55e0836c28cce9d5", "limit_chars": 4096, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "preflight", "outcome": "preflight_rejected_before_parser", "parser_calls": 0, "peak_commit_bytes": 12865536, "peak_commit_delta_bytes": 1409024, "peak_working_set_bytes": 18583552, "peak_working_set_delta_bytes": 225280}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\truncated_hex.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18452480, "detail": "invalid index payload: non-hexadecimal number found in fromhex() arg at position 3", "elapsed_seconds": 3.320001997053623e-05, "format_decode_calls": 1, "input_bytes": 9, "input_sha256": "7dcb572d872d84930eb98df95be9834f98b485eb8e759ca5ff7c3a5e30e7d0d1", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12578816, "peak_commit_delta_bytes": 0, "peak_working_set_bytes": 18767872, "peak_working_set_delta_bytes": 315392}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\garbage_hex.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18505728, "detail": "invalid index payload: non-hexadecimal number found in fromhex() arg at position 0", "elapsed_seconds": 3.370002377778292e-05, "format_decode_calls": 1, "input_bytes": 8, "input_sha256": "0f8018819447eab3994298c5f2bab7d214b9517f93fcef314c3b2f580a936f3c", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12607488, "peak_commit_delta_bytes": 991232, "peak_working_set_bytes": 18792448, "peak_working_set_delta_bytes": 286720}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\wrong_prefix.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18325504, "detail": "unknown prefix: 'B0'", "elapsed_seconds": 1.6600009985268116e-05, "format_decode_calls": 0, "input_bytes": 8, "input_sha256": "5d55be42bc99287d801a479e998cca8c7e12c51607d74a69b39e1c30eba7d6a3", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 12713984, "peak_commit_delta_bytes": 761856, "peak_working_set_bytes": 18628608, "peak_working_set_delta_bytes": 303104}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\huge_garbage_8m.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 35192832, "detail": "expected 3 colon-separated parts, got 1", "elapsed_seconds": 0.42723769997246563, "format_decode_calls": 0, "input_bytes": 8388608, "input_sha256": "455123f2f385704a277d5fb772ea6c1d6e68c068c69162d10d06fd967cebdf4c", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "InvalidAddressError", "parser_calls": 1, "peak_commit_bytes": 28594176, "peak_commit_delta_bytes": 24576, "peak_working_set_bytes": 35205120, "peak_working_set_delta_bytes": 12288}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_x5.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--input", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\x5_cases\\huge_valid_hex_8m.txt", "--mode", "direct", "--limit", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 35258368, "detail": "", "elapsed_seconds": 0.48614709998946637, "format_decode_calls": 1, "input_bytes": 8388608, "input_sha256": "49f00be3e5aa5fbe483f9eb43bcf0fa00d52e707cde3c9acf36ec2637b91f731", "limit_chars": null, "metric": "Windows GetProcessMemoryInfo; input string loaded before baseline; peak includes startup/imports", "mode": "direct", "outcome": "accepted", "parser_calls": 1, "peak_commit_bytes": 58044416, "peak_commit_delta_bytes": 29487104, "peak_working_set_bytes": 64647168, "peak_working_set_delta_bytes": 29388800}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END

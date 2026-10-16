@@ -1,0 +1,18 @@
+7.1 Experimentos do Codex
+O Codex mede, não programa o produto. Cada experimento só roda para candidatos que o Diretor aprovou na lista curta.
+ID | Experimento | Pergunta que responde | Questão | Fase
+X1 | Formatos textuais aprovados (hexadecimal, base32, base64url) | Qual o tamanho real, o tempo de codificar e decodificar e a ergonomia de copiar, colar e quebrar linha de cada um? | Q1 | BP-F0B
+X2 | Soma segmentada (leitura inversa e duas passagens) contra inteiro monolítico | Quanto tempo e pico de memória cada estratégia usa em tamanhos progressivos? | Q3 | BP-F0B
+X3 | Custo do envelope: checksum sobre o texto do índice e sobre os bytes reconstruídos | Qual o overhead em tamanho e tempo de cada opção aprovada? | Q2 | BP-F0B
+X4 | Escala com conteúdo aleatório ou não repetido | A partir de que tamanho tempo e memória deixam de ser práticos? | Q4, Q7 | BP-F0B e BP-F3
+X5 | Entrada hostil: endereços enormes, malformados e no limite +1 | A rejeição acontece antes de alocar memória proporcional à entrada? | Q7 | BP-F3
+X6 | Casos reais: texto e código do Diretor | Qual a razão entre o tamanho do endereço e o do arquivo em dados do dia a dia? | Q1, Q4 | BP-F0B
+X7 | Repetir X2, X4 e X5 em cada plataforma aprovada na Q6 | Os números e o comportamento valem em cada plataforma? | Q6, Q7 | antes do BP-G3
+O Codex escreve só em experiments/ e entrega, por experimento: comando exato, caminho e SHA-256 dos arquivos de teste, sistema operacional e versão do runtime, seed, saída bruta, JSON ou CSV e conclusão limitada ao que foi medido. O pico de memória é o do processo (RSS no Linux; Working Set e commit no Windows), nunca só tracemalloc. Teste de escala com bloco repetido não vale (erro A-06 da V1).
+
+Hash                                                             Path
+----                                                             ----
+50C30E1FD13CADC813F13153499AC11B8354DF039187F9FE8ED60CAC57767F87 C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\exper…
+7083336D08B4278CB4AF44CB35B944BEEE35A50C2D27682C8C2AF86431D33321 C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\exper…
+7A796FA2E129A032129704C27142F5DF2501BA0FADE49B5CAD9160A70CE0E5F9 C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\exper…
+

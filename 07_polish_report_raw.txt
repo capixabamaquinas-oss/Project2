@@ -1,0 +1,3 @@
+report_utf8=C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015\REPORT.md
+unicode_headings=['### X1 - formatos textuais', '### X2 - soma monolitica e segmentada', '### X3 - candidatos de checksum', '### X4 - escala com dados não repetitivos', '### X5 - entrada hostil e limite antes do parser', '### X6 - arquivos reais do usuário']
+question_mark_artifacts=0

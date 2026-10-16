@@ -1,0 +1,19 @@
+[180] Como m e n ou n+1, a diferenca de um byte e desprezivel para entradas grandes. O envelope acrescentara ainda um overhead fixo/pequeno de prefixo, versao, separadores e checksum.
+[181] DECISAO TECNICA
+[182] Decimal nao deve ser candidato ao endereco textual da primeira versao. A pesquisa anterior registrou custo de conversao inadequado e o limite padrao de 4.300 digitos do Python para conversoes decimais de inteiros.
+[183] 
+[184] 7. Limites, parser e resistencia a entradas malformadas
+[185] O endereco externo pode ser enorme. O parser nao deve primeiro converter tudo e so depois perguntar se o tamanho era aceitavel. A validacao de tamanho deve ocorrer antes de qualquer decodificacao que possa causar grande alocacao.
+[186] 7.1 Regras obrigatorias de desenho
+[187] Definir MAX_ADDRESS_CHARS numerico antes de liberar a fase de app/distribuicao.
+[188] Rejeitar endereco acima do limite antes de base-decode, construcao de inteiro ou alocacao proporcional ao conteudo.
+[189] Definir MAX_OUTPUT_BYTES e checar uma estimativa superior do tamanho decodificado antes da reconstrucao.
+[190] Validar prefixo, versao, alfabeto, separadores, forma canonica e checksum antes de produzir arquivo de saida.
+[191] Gravar saida em temporario e publicar somente apos validacao completa, quando houver I/O de arquivo.
+[192] Medir pico real do processo em entradas progressivas e casos maliciosos; nao confiar apenas em tracemalloc.
+[193] 7.2 Limites ainda abertos
+[194] Os valores numericos dos limites pertencem a Q4/Q7. Enquanto nao forem definidos e aprovados, os criterios de escala e resistencia a entrada gigante nao podem ser marcados como aprovados.
+[195] 8. Arquitetura tecnica proposta
+[196] O layout evita o nome io.py para nao sombrear o modulo io da biblioteca padrao quando o pacote estiver no caminho de importacao.
+[197] babel_pura/  codec.py        # bijecao B* <-> N0; sem UI  address.py      # envelope textual canonico, parser, checksum/versionamento  limits.py       # limites e preflight de tamanho  fileio.py       # leitura/gravação binaria segura  service.py      # orquestracao; sem matematica duplicada  errors.py       # erros estruturados  ui/             # somente apos os gates do nucleotests/  test_codec.py  test_address.py  test_limits.py  test_fileio.py  test_integration.py  vectors/experiments/  address_formats/  performance/  memory/audits/
+[198] Componente

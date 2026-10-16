@@ -1,0 +1,3 @@
+report_sha256=b0f5e5eca1825979833505d510e57212f41b2c869cccc17f996c9753dae65e4f
+question_mark_artifacts=0
+X4_random_note=Foram usados cinco arquivos de `random.Random(seed).randbytes`, de 1 KiB a 16 MiB. As quatro amostras a partir de 64 KiB apresentaram os 256 valores de byte; a amostra de 1 KiB apresentou 253. Esses mesmos arquivos foram usados no X2. Seeds, entropia observada e SHA-256:

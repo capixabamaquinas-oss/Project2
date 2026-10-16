@@ -1,0 +1,14 @@
+{
+  "edge_rows": 99,
+  "edge_passed": 99,
+  "edge_failed": 0,
+  "x1_records": 39,
+  "x1_passed": 39,
+  "x1_failed": 0,
+  "x2_x4_records": 35,
+  "x3_records": 140,
+  "x5_records": 11,
+  "x6_records": 21,
+  "x6_passed": 21,
+  "x6_failed": 0
+}

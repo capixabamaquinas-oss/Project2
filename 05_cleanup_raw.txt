@@ -1,0 +1,5 @@
+verified_run=C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015
+verified_cleanup_target=C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015\work
+files_to_remove=339
+bytes_to_remove=618535940
+work_exists_after=False

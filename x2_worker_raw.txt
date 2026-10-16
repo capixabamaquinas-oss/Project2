@@ -1,0 +1,735 @@
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_monolithic_mono_r1.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18505728, "chunk_size": null, "elapsed_seconds": 0.0008992999792098999, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 13492224, "peak_commit_delta_bytes": 1110016, "peak_working_set_bytes": 19484672, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_monolithic_mono_r2.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18087936, "chunk_size": null, "elapsed_seconds": 0.0010337000130675733, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12414976, "peak_commit_delta_bytes": 1196032, "peak_working_set_bytes": 19066880, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_monolithic_mono_r3.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18022400, "chunk_size": null, "elapsed_seconds": 0.010081799991894513, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12427264, "peak_commit_delta_bytes": 1200128, "peak_working_set_bytes": 19001344, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_4096_r1.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18169856, "chunk_size": 4096, "elapsed_seconds": 0.002011300006415695, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12480512, "peak_commit_delta_bytes": 1224704, "peak_working_set_bytes": 19148800, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_4096_r2.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18092032, "chunk_size": 4096, "elapsed_seconds": 0.0018850000342354178, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12451840, "peak_commit_delta_bytes": 1314816, "peak_working_set_bytes": 19070976, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_4096_r3.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18026496, "chunk_size": 4096, "elapsed_seconds": 0.0025550000136718154, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12455936, "peak_commit_delta_bytes": 1572864, "peak_working_set_bytes": 19005440, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_65536_r1.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18264064, "chunk_size": 65536, "elapsed_seconds": 0.0017935999785549939, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12398592, "peak_commit_delta_bytes": 1314816, "peak_working_set_bytes": 19243008, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_65536_r2.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18022400, "chunk_size": 65536, "elapsed_seconds": 0.008146099979057908, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12619776, "peak_commit_delta_bytes": 1417216, "peak_working_set_bytes": 19001344, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_65536_r3.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18087936, "chunk_size": 65536, "elapsed_seconds": 0.005766499962192029, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12447744, "peak_commit_delta_bytes": 1232896, "peak_working_set_bytes": 19066880, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_1048576_r1.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18374656, "chunk_size": 1048576, "elapsed_seconds": 0.0014984000008553267, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12632064, "peak_commit_delta_bytes": 1105920, "peak_working_set_bytes": 19353600, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_1048576_r2.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18370560, "chunk_size": 1048576, "elapsed_seconds": 0.002037600032053888, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12894208, "peak_commit_delta_bytes": 1327104, "peak_working_set_bytes": 19349504, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_reverse_1048576_r3.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18116608, "chunk_size": 1048576, "elapsed_seconds": 0.0017307999660260975, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12640256, "peak_commit_delta_bytes": 1335296, "peak_working_set_bytes": 19095552, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_4096_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18505728, "chunk_size": 4096, "elapsed_seconds": 0.004310299991630018, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12791808, "peak_commit_delta_bytes": 1093632, "peak_working_set_bytes": 19484672, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_4096_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18132992, "chunk_size": 4096, "elapsed_seconds": 0.0012497000279836357, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12820480, "peak_commit_delta_bytes": 1470464, "peak_working_set_bytes": 19111936, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_4096_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18108416, "chunk_size": 4096, "elapsed_seconds": 0.004289500007871538, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12402688, "peak_commit_delta_bytes": 1232896, "peak_working_set_bytes": 19087360, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_65536_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18419712, "chunk_size": 65536, "elapsed_seconds": 0.009588400018401444, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12451840, "peak_commit_delta_bytes": 1073152, "peak_working_set_bytes": 19398656, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_65536_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18149376, "chunk_size": 65536, "elapsed_seconds": 0.0025307000032626092, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12795904, "peak_commit_delta_bytes": 1728512, "peak_working_set_bytes": 19128320, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_65536_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18141184, "chunk_size": 65536, "elapsed_seconds": 0.008362399996258318, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12460032, "peak_commit_delta_bytes": 1273856, "peak_working_set_bytes": 19120128, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_1048576_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18153472, "chunk_size": 1048576, "elapsed_seconds": 0.0012508000363595784, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12574720, "peak_commit_delta_bytes": 1101824, "peak_working_set_bytes": 19132416, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_1048576_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18255872, "chunk_size": 1048576, "elapsed_seconds": 0.001133000012487173, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12951552, "peak_commit_delta_bytes": 1355776, "peak_working_set_bytes": 19234816, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1024_segmented_two_pass_1048576_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18161664, "chunk_size": 1048576, "elapsed_seconds": 0.004112599999643862, "input_bytes": 1024, "input_sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1024, "output_sha256": "893ff29505483e0f509c696ea860c06895b17a036ffe925896f9153505be0965", "peak_commit_bytes": 12419072, "peak_commit_delta_bytes": 1388544, "peak_working_set_bytes": 19140608, "peak_working_set_delta_bytes": 978944}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_monolithic_mono_r1.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18104320, "chunk_size": null, "elapsed_seconds": 0.004616500053089112, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12873728, "peak_commit_delta_bytes": 1613824, "peak_working_set_bytes": 19148800, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_monolithic_mono_r2.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18169856, "chunk_size": null, "elapsed_seconds": 0.001830599969252944, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12816384, "peak_commit_delta_bytes": 1335296, "peak_working_set_bytes": 19214336, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_monolithic_mono_r3.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18321408, "chunk_size": null, "elapsed_seconds": 0.005437100015114993, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12935168, "peak_commit_delta_bytes": 1175552, "peak_working_set_bytes": 19365888, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_4096_r1.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18227200, "chunk_size": 4096, "elapsed_seconds": 0.011540399980731308, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12427264, "peak_commit_delta_bytes": 1302528, "peak_working_set_bytes": 19271680, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_4096_r2.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18079744, "chunk_size": 4096, "elapsed_seconds": 0.008302200003527105, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12468224, "peak_commit_delta_bytes": 1138688, "peak_working_set_bytes": 19124224, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_4096_r3.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18227200, "chunk_size": 4096, "elapsed_seconds": 0.01104979997035116, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12787712, "peak_commit_delta_bytes": 1716224, "peak_working_set_bytes": 19271680, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_65536_r1.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18116608, "chunk_size": 65536, "elapsed_seconds": 0.010006299999076873, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12472320, "peak_commit_delta_bytes": 1183744, "peak_working_set_bytes": 19161088, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_65536_r2.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18464768, "chunk_size": 65536, "elapsed_seconds": 0.00769250001758337, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12951552, "peak_commit_delta_bytes": 1126400, "peak_working_set_bytes": 19509248, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_65536_r3.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18403328, "chunk_size": 65536, "elapsed_seconds": 0.008166800020262599, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12951552, "peak_commit_delta_bytes": 1671168, "peak_working_set_bytes": 19447808, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_1048576_r1.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18468864, "chunk_size": 1048576, "elapsed_seconds": 0.01154610002413392, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12898304, "peak_commit_delta_bytes": 1458176, "peak_working_set_bytes": 19513344, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_1048576_r2.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 17911808, "chunk_size": 1048576, "elapsed_seconds": 0.008381900028325617, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12406784, "peak_commit_delta_bytes": 1155072, "peak_working_set_bytes": 18956288, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_reverse_1048576_r3.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18497536, "chunk_size": 1048576, "elapsed_seconds": 0.01038900000276044, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 13012992, "peak_commit_delta_bytes": 1171456, "peak_working_set_bytes": 19542016, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_4096_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18194432, "chunk_size": 4096, "elapsed_seconds": 0.023783500015269965, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12673024, "peak_commit_delta_bytes": 1519616, "peak_working_set_bytes": 19238912, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_4096_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18407424, "chunk_size": 4096, "elapsed_seconds": 0.011883199971634895, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 13004800, "peak_commit_delta_bytes": 1187840, "peak_working_set_bytes": 19451904, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_4096_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18055168, "chunk_size": 4096, "elapsed_seconds": 0.02108030003728345, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12431360, "peak_commit_delta_bytes": 1273856, "peak_working_set_bytes": 19099648, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_65536_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18259968, "chunk_size": 65536, "elapsed_seconds": 0.012702400039415807, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12644352, "peak_commit_delta_bytes": 1454080, "peak_working_set_bytes": 19304448, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_65536_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18395136, "chunk_size": 65536, "elapsed_seconds": 0.012093900004401803, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 13074432, "peak_commit_delta_bytes": 1163264, "peak_working_set_bytes": 19439616, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_65536_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18161664, "chunk_size": 65536, "elapsed_seconds": 0.019396000017877668, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12898304, "peak_commit_delta_bytes": 1540096, "peak_working_set_bytes": 19206144, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_1048576_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18370560, "chunk_size": 1048576, "elapsed_seconds": 0.011281699989922345, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12959744, "peak_commit_delta_bytes": 1695744, "peak_working_set_bytes": 19415040, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_1048576_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18120704, "chunk_size": 1048576, "elapsed_seconds": 0.01017409999622032, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 12824576, "peak_commit_delta_bytes": 1155072, "peak_working_set_bytes": 19165184, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\65536_segmented_two_pass_1048576_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18415616, "chunk_size": 1048576, "elapsed_seconds": 0.01572730002226308, "input_bytes": 65536, "input_sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 65536, "output_sha256": "4b3576a89d000590cc167f0482b7b04bb91cfc9fa75923e125dd89060e40a7a8", "peak_commit_bytes": 13008896, "peak_commit_delta_bytes": 1155072, "peak_working_set_bytes": 19460096, "peak_working_set_delta_bytes": 1044480}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_monolithic_mono_r1.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18141184, "chunk_size": null, "elapsed_seconds": 0.012523400015197694, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 15785984, "peak_commit_delta_bytes": 4497408, "peak_working_set_bytes": 22564864, "peak_working_set_delta_bytes": 4423680}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_monolithic_mono_r2.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18472960, "chunk_size": null, "elapsed_seconds": 0.02031290001468733, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 16162816, "peak_commit_delta_bytes": 4485120, "peak_working_set_bytes": 22896640, "peak_working_set_delta_bytes": 4423680}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_monolithic_mono_r3.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18407424, "chunk_size": null, "elapsed_seconds": 0.017216799955349416, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 16314368, "peak_commit_delta_bytes": 4493312, "peak_working_set_bytes": 22831104, "peak_working_set_delta_bytes": 4423680}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_4096_r1.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18001920, "chunk_size": 4096, "elapsed_seconds": 0.20499030000064522, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13316096, "peak_commit_delta_bytes": 2121728, "peak_working_set_bytes": 20029440, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_4096_r2.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18296832, "chunk_size": 4096, "elapsed_seconds": 0.15399319998687133, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13475840, "peak_commit_delta_bytes": 2121728, "peak_working_set_bytes": 20324352, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_4096_r3.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18087936, "chunk_size": 4096, "elapsed_seconds": 0.18641339999157935, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13402112, "peak_commit_delta_bytes": 2154496, "peak_working_set_bytes": 20115456, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_65536_r1.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18399232, "chunk_size": 65536, "elapsed_seconds": 0.14718820003326982, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13979648, "peak_commit_delta_bytes": 2142208, "peak_working_set_bytes": 20426752, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_65536_r2.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18300928, "chunk_size": 65536, "elapsed_seconds": 0.13733070000307634, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13934592, "peak_commit_delta_bytes": 2121728, "peak_working_set_bytes": 20328448, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_65536_r3.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18026496, "chunk_size": 65536, "elapsed_seconds": 0.13646289997268468, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13201408, "peak_commit_delta_bytes": 2121728, "peak_working_set_bytes": 20054016, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_1048576_r1.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18272256, "chunk_size": 1048576, "elapsed_seconds": 0.11411099997349083, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 15052800, "peak_commit_delta_bytes": 3194880, "peak_working_set_bytes": 21454848, "peak_working_set_delta_bytes": 3182592}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_1048576_r2.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18173952, "chunk_size": 1048576, "elapsed_seconds": 0.11474760004784912, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 14467072, "peak_commit_delta_bytes": 3207168, "peak_working_set_bytes": 21352448, "peak_working_set_delta_bytes": 3178496}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_reverse_1048576_r3.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18460672, "chunk_size": 1048576, "elapsed_seconds": 0.10766340000554919, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 14798848, "peak_commit_delta_bytes": 3182592, "peak_working_set_bytes": 21639168, "peak_working_set_delta_bytes": 3178496}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_4096_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18423808, "chunk_size": 4096, "elapsed_seconds": 0.1515895000193268, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13709312, "peak_commit_delta_bytes": 2113536, "peak_working_set_bytes": 20451328, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_4096_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18366464, "chunk_size": 4096, "elapsed_seconds": 0.14474379998864606, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13905920, "peak_commit_delta_bytes": 2105344, "peak_working_set_bytes": 20393984, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_4096_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18427904, "chunk_size": 4096, "elapsed_seconds": 0.14818680001189932, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13803520, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20455424, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_65536_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18464768, "chunk_size": 65536, "elapsed_seconds": 0.1614242999930866, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13778944, "peak_commit_delta_bytes": 2109440, "peak_working_set_bytes": 20492288, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_65536_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18362368, "chunk_size": 65536, "elapsed_seconds": 0.15115140000125393, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13684736, "peak_commit_delta_bytes": 2105344, "peak_working_set_bytes": 20389888, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_65536_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18354176, "chunk_size": 65536, "elapsed_seconds": 0.19276550004724413, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 13684736, "peak_commit_delta_bytes": 2113536, "peak_working_set_bytes": 20381696, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_1048576_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18309120, "chunk_size": 1048576, "elapsed_seconds": 0.1795832000207156, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 14589952, "peak_commit_delta_bytes": 3219456, "peak_working_set_bytes": 21475328, "peak_working_set_delta_bytes": 3166208}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_1048576_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18108416, "chunk_size": 1048576, "elapsed_seconds": 0.14875059999758378, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 14770176, "peak_commit_delta_bytes": 3170304, "peak_working_set_bytes": 21274624, "peak_working_set_delta_bytes": 3166208}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\1048576_segmented_two_pass_1048576_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18423808, "chunk_size": 1048576, "elapsed_seconds": 0.15248789999168366, "input_bytes": 1048576, "input_sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 1048576, "output_sha256": "85a77825bd9a2dfd3d9db2b4792ff8c184a0a9c6d6194a48626b4779a76796f6", "peak_commit_bytes": 14692352, "peak_commit_delta_bytes": 3166208, "peak_working_set_bytes": 21590016, "peak_working_set_delta_bytes": 3166208}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_monolithic_mono_r1.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18198528, "chunk_size": null, "elapsed_seconds": 0.030686000012792647, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 28917760, "peak_commit_delta_bytes": 17715200, "peak_working_set_bytes": 35831808, "peak_working_set_delta_bytes": 17633280}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_monolithic_mono_r2.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18067456, "chunk_size": null, "elapsed_seconds": 0.036926599976141006, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 28782592, "peak_commit_delta_bytes": 17707008, "peak_working_set_bytes": 35700736, "peak_working_set_delta_bytes": 17633280}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_monolithic_mono_r3.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18337792, "chunk_size": null, "elapsed_seconds": 0.03522550000343472, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 29163520, "peak_commit_delta_bytes": 17702912, "peak_working_set_bytes": 35971072, "peak_working_set_delta_bytes": 17633280}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_4096_r1.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18190336, "chunk_size": 4096, "elapsed_seconds": 0.5481701000244357, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13709312, "peak_commit_delta_bytes": 2158592, "peak_working_set_bytes": 20217856, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_4096_r2.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18440192, "chunk_size": 4096, "elapsed_seconds": 0.4637226000195369, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13533184, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20467712, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_4096_r3.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18350080, "chunk_size": 4096, "elapsed_seconds": 0.506758900010027, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13971456, "peak_commit_delta_bytes": 2154496, "peak_working_set_bytes": 20377600, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_65536_r1.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18235392, "chunk_size": 65536, "elapsed_seconds": 0.5555878999875858, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13479936, "peak_commit_delta_bytes": 2134016, "peak_working_set_bytes": 20262912, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_65536_r2.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18096128, "chunk_size": 65536, "elapsed_seconds": 0.43728890002239496, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13398016, "peak_commit_delta_bytes": 2158592, "peak_working_set_bytes": 20123648, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_65536_r3.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18374656, "chunk_size": 65536, "elapsed_seconds": 0.4993591999518685, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 14057472, "peak_commit_delta_bytes": 2154496, "peak_working_set_bytes": 20402176, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_1048576_r1.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18423808, "chunk_size": 1048576, "elapsed_seconds": 0.4151819000253454, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 15613952, "peak_commit_delta_bytes": 4247552, "peak_working_set_bytes": 22654976, "peak_working_set_delta_bytes": 4231168}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_1048576_r2.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18411520, "chunk_size": 1048576, "elapsed_seconds": 0.4524826999986544, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 16113664, "peak_commit_delta_bytes": 4259840, "peak_working_set_bytes": 22642688, "peak_working_set_delta_bytes": 4231168}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_reverse_1048576_r3.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18460672, "chunk_size": 1048576, "elapsed_seconds": 0.424727100005839, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 16068608, "peak_commit_delta_bytes": 4280320, "peak_working_set_bytes": 22695936, "peak_working_set_delta_bytes": 4235264}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_4096_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18182144, "chunk_size": 4096, "elapsed_seconds": 0.75963770004455, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13598720, "peak_commit_delta_bytes": 2158592, "peak_working_set_bytes": 20209664, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_4096_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18194432, "chunk_size": 4096, "elapsed_seconds": 0.6532184999668971, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13283328, "peak_commit_delta_bytes": 2138112, "peak_working_set_bytes": 20221952, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_4096_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18092032, "chunk_size": 4096, "elapsed_seconds": 0.6207642999943346, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13459456, "peak_commit_delta_bytes": 2150400, "peak_working_set_bytes": 20119552, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_65536_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18272256, "chunk_size": 65536, "elapsed_seconds": 0.6109533999697305, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13955072, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20299776, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_65536_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18305024, "chunk_size": 65536, "elapsed_seconds": 0.8036716000060551, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13647872, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20332544, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_65536_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18034688, "chunk_size": 65536, "elapsed_seconds": 0.7764190000016242, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 13242368, "peak_commit_delta_bytes": 2142208, "peak_working_set_bytes": 20062208, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_1048576_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18268160, "chunk_size": 1048576, "elapsed_seconds": 0.7156335000181571, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 15384576, "peak_commit_delta_bytes": 4272128, "peak_working_set_bytes": 22487040, "peak_working_set_delta_bytes": 4218880}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_1048576_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18440192, "chunk_size": 1048576, "elapsed_seconds": 0.773099199985154, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 15867904, "peak_commit_delta_bytes": 4276224, "peak_working_set_bytes": 22659072, "peak_working_set_delta_bytes": 4218880}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\4194304_segmented_two_pass_1048576_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18333696, "chunk_size": 1048576, "elapsed_seconds": 0.714587600028608, "input_bytes": 4194304, "input_sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 4194304, "output_sha256": "25f5afbc781cf00c2fc01e8d420b0f494f75450392e6a08f92b715a11549f326", "peak_commit_bytes": 15589376, "peak_commit_delta_bytes": 4255744, "peak_working_set_bytes": 22556672, "peak_working_set_delta_bytes": 4222976}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_monolithic_mono_r1.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18112512, "chunk_size": null, "elapsed_seconds": 0.12747740000486374, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 81801216, "peak_commit_delta_bytes": 70684672, "peak_working_set_bytes": 88596480, "peak_working_set_delta_bytes": 70483968}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_monolithic_mono_r2.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18292736, "chunk_size": null, "elapsed_seconds": 0.12793319998309016, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 82128896, "peak_commit_delta_bytes": 70651904, "peak_working_set_bytes": 88776704, "peak_working_set_delta_bytes": 70483968}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_monolithic_mono_r3.idx", "--method", "monolithic", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18337792, "chunk_size": null, "elapsed_seconds": 0.13953799998853356, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "monolithic", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 82190336, "peak_commit_delta_bytes": 70664192, "peak_working_set_bytes": 88821760, "peak_working_set_delta_bytes": 70483968}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_4096_r1.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18292736, "chunk_size": 4096, "elapsed_seconds": 1.7382810999988578, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13799424, "peak_commit_delta_bytes": 2162688, "peak_working_set_bytes": 20320256, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_4096_r2.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18427904, "chunk_size": 4096, "elapsed_seconds": 1.6831344999955036, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13467648, "peak_commit_delta_bytes": 2162688, "peak_working_set_bytes": 20455424, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_4096_r3.idx", "--method", "segmented_reverse", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18391040, "chunk_size": 4096, "elapsed_seconds": 2.82693099998869, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13660160, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20418560, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_65536_r1.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18432000, "chunk_size": 65536, "elapsed_seconds": 2.372321099974215, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 14761984, "peak_commit_delta_bytes": 2170880, "peak_working_set_bytes": 20459520, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_65536_r2.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18165760, "chunk_size": 65536, "elapsed_seconds": 3.745957700011786, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13316096, "peak_commit_delta_bytes": 2162688, "peak_working_set_bytes": 20193280, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_65536_r3.idx", "--method", "segmented_reverse", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18120704, "chunk_size": 65536, "elapsed_seconds": 4.3199872999684885, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13393920, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20148224, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_1048576_r1.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18206720, "chunk_size": 1048576, "elapsed_seconds": 1.9491018999833614, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 15351808, "peak_commit_delta_bytes": 4284416, "peak_working_set_bytes": 22437888, "peak_working_set_delta_bytes": 4231168}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_1048576_r2.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18169856, "chunk_size": 1048576, "elapsed_seconds": 1.998783499991987, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 15638528, "peak_commit_delta_bytes": 4280320, "peak_working_set_bytes": 22405120, "peak_working_set_delta_bytes": 4235264}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_reverse_1048576_r3.idx", "--method", "segmented_reverse", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18378752, "chunk_size": 1048576, "elapsed_seconds": 1.9160709999850951, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_reverse", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 15650816, "peak_commit_delta_bytes": 4284416, "peak_working_set_bytes": 22609920, "peak_working_set_delta_bytes": 4231168}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_4096_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18026496, "chunk_size": 4096, "elapsed_seconds": 2.8476927999872714, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13365248, "peak_commit_delta_bytes": 2170880, "peak_working_set_bytes": 20054016, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_4096_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18223104, "chunk_size": 4096, "elapsed_seconds": 2.936524000018835, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 14012416, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20250624, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_4096_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "4096"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18169856, "chunk_size": 4096, "elapsed_seconds": 2.8478997999918647, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13459456, "peak_commit_delta_bytes": 2170880, "peak_working_set_bytes": 20197376, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_65536_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18534400, "chunk_size": 65536, "elapsed_seconds": 2.5921485999715514, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13979648, "peak_commit_delta_bytes": 2162688, "peak_working_set_bytes": 20561920, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_65536_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18132992, "chunk_size": 65536, "elapsed_seconds": 2.682535799976904, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13176832, "peak_commit_delta_bytes": 2166784, "peak_working_set_bytes": 20160512, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_65536_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "65536"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18259968, "chunk_size": 65536, "elapsed_seconds": 2.673527400009334, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 13414400, "peak_commit_delta_bytes": 2158592, "peak_working_set_bytes": 20287488, "peak_working_set_delta_bytes": 2027520}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_1048576_r1.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18132992, "chunk_size": 1048576, "elapsed_seconds": 2.696214299998246, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 15335424, "peak_commit_delta_bytes": 4288512, "peak_working_set_bytes": 22351872, "peak_working_set_delta_bytes": 4218880}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_1048576_r2.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18481152, "chunk_size": 1048576, "elapsed_seconds": 3.1914556000265293, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 15888384, "peak_commit_delta_bytes": 4284416, "peak_working_set_bytes": 22700032, "peak_working_set_delta_bytes": 4218880}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END
+ARGV=["C:\\Users\\User PC\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "-X", "utf8", "-I", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\03_worker_codec.py", "--package-root", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\source-copy", "--source", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin", "--output", "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\work\\x2_outputs\\16777216_segmented_two_pass_1048576_r3.idx", "--method", "segmented_two_pass", "--chunk-size", "1048576"]
+RETURN_CODE=0
+STDOUT_BEGIN
+{"baseline_working_set_bytes": 18423808, "chunk_size": 1048576, "elapsed_seconds": 2.962683299963828, "input_bytes": 16777216, "input_sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6", "method": "segmented_two_pass", "metric": "Windows GetProcessMemoryInfo; peak includes process startup and imports", "output_bytes": 16777216, "output_sha256": "9a279f24fd506cf326a10cdd61c198e3824ca93fb45fd879c6490cac59cbfb23", "peak_commit_bytes": 15622144, "peak_commit_delta_bytes": 4284416, "peak_working_set_bytes": 22646784, "peak_working_set_delta_bytes": 4222976}
+STDOUT_END
+STDERR_BEGIN
+STDERR_END

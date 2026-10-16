@@ -1,0 +1,161 @@
+[
+  {
+    "kind": "real_user_file",
+    "label": "dossier_v3_docx",
+    "source_path": "C:\\Users\\User PC\\Downloads\\Dossi\u00ea Operacional \u2014 Babel Pura App v3 (revisado).docx",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\dossier_v3_docx.docx",
+    "size_bytes": 157130,
+    "sha256": "b628be6e4cc301d512a27c28bfdeff3bd63d98c8b127ffe1e8d5625058f6f094"
+  },
+  {
+    "kind": "real_user_file",
+    "label": "dossier_v2_docx",
+    "source_path": "C:\\Users\\User PC\\Downloads\\Dossie_Operacional_Babel_Pura_App_v2_Revisado.docx",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\dossier_v2_docx.docx",
+    "size_bytes": 55879,
+    "sha256": "3a12823e5110b979849f5d7a0da84af92d4aeaf4e269e0eee9aada944b25094c"
+  },
+  {
+    "kind": "real_user_file",
+    "label": "codec_py",
+    "source_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\babel_pura\\codec.py",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\codec_py.py",
+    "size_bytes": 11429,
+    "sha256": "6a72eb64d420570499d9cafe29ea6f39e0a90687686006d6404e7d0bfd2d72b6"
+  },
+  {
+    "kind": "real_user_file",
+    "label": "address_py",
+    "source_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\babel_pura\\address.py",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\address_py.py",
+    "size_bytes": 3463,
+    "sha256": "0b041bbc3451cf085c85a01cf7b2758c61fd98c05bc7451b7a3dfbc69feddd4a"
+  },
+  {
+    "kind": "real_user_file",
+    "label": "test_codec_py",
+    "source_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\tests\\test_codec.py",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\test_codec_py.py",
+    "size_bytes": 11624,
+    "sha256": "af446eb7192dc2f1cacfc209b824403eb74e96e4cb1b7bc166f768c3b3d8f10a"
+  },
+  {
+    "kind": "real_user_file",
+    "label": "test_address_py",
+    "source_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\tests\\test_address.py",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\test_address_py.py",
+    "size_bytes": 8013,
+    "sha256": "60f5cc53a084681ced22f3d70dfdd99947ad0e743991c6f91ea6505f68466c0e"
+  },
+  {
+    "kind": "derived_real_user_text",
+    "label": "dossier_v3_extracted",
+    "source_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\dossier_v3_docx.docx",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\x6_user_files\\dossier_v3_extracted.txt",
+    "size_bytes": 27108,
+    "sha256": "917d6a0c4836793b54aa19a43b763e0a5cd7014678e9f98e1627f92e01005a4d"
+  },
+  {
+    "kind": "seeded_random",
+    "label": "seeded_random_1024.bin",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1024.bin",
+    "size_bytes": 1024,
+    "seed": 20261015,
+    "sha256": "6394231106427ed874675c4bf17c6a66199cb6eb19a11c18c9083c07a3c13f01"
+  },
+  {
+    "kind": "seeded_random",
+    "label": "seeded_random_65536.bin",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_65536.bin",
+    "size_bytes": 65536,
+    "seed": 20261016,
+    "sha256": "872ab354928a52de7d6334631dd88c98f2379e8adc2efb41535029c06fb3defa"
+  },
+  {
+    "kind": "seeded_random",
+    "label": "seeded_random_1048576.bin",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_1048576.bin",
+    "size_bytes": 1048576,
+    "seed": 20261017,
+    "sha256": "05cdac6fabfa51e6ee23ff4568db74b5d5ae7747f3d7849dedad5a7f177b17e2"
+  },
+  {
+    "kind": "seeded_random",
+    "label": "seeded_random_4194304.bin",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_4194304.bin",
+    "size_bytes": 4194304,
+    "seed": 20261018,
+    "sha256": "8d38e5c70932b418c654aaa79a46ed64dbcd5580502f19701d4978ab60ecf8bb"
+  },
+  {
+    "kind": "seeded_random",
+    "label": "seeded_random_16777216.bin",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\seeded_random_16777216.bin",
+    "size_bytes": 16777216,
+    "seed": 20261019,
+    "sha256": "146a5cb9d41cfe2c72843981d236482cbea884f35b3fa1b3b9fdd949b890eaf6"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "empty",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_empty.bin",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "single_nul",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_single_nul.bin",
+    "size_bytes": 1,
+    "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "single_ff",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_single_ff.bin",
+    "size_bytes": 1,
+    "sha256": "a8100ae6aa1940d0b663bb31cd466142ebbdbd5187131b92d93818987832eb89"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "leading_zeroes",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_leading_zeroes.bin",
+    "size_bytes": 4,
+    "sha256": "c49c3b8de74455dab32de2efc236ac7f059f99a04f0407fc3f530c56878818a3"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "all_byte_values",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_all_byte_values.bin",
+    "size_bytes": 256,
+    "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "boundary_255",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_boundary_255.bin",
+    "size_bytes": 255,
+    "sha256": "3f8591112c6bbe5c963965954e293108b7208ed2af893e500d859368c654eabe"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "boundary_256",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_boundary_256.bin",
+    "size_bytes": 256,
+    "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "carry_run_ff_64",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_carry_run_ff_64.bin",
+    "size_bytes": 64,
+    "sha256": "8667e718294e9e0df1d30600ba3eeb201f764aad2dad72748643e4a285e1d1f7"
+  },
+  {
+    "kind": "edge_vector",
+    "label": "all_zero_4096",
+    "copy_path": "C:\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\X1-X6_20261015\\fixtures\\edge_all_zero_4096.bin",
+    "size_bytes": 4096,
+    "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+  }
+]
