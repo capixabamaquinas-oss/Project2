@@ -1,0 +1,165 @@
+{
+  "timestamp_local": "2026-10-07T01:26:55-03:00",
+  "machine": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\User PC\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "babel_dir": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC",
+  "babel_python_source_sha256": [
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\__init__.py",
+      "sha256": "22ff7e5cf66e302bdcad100da940e428c9f9206dce6866978c468f2c5ca96984"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py",
+      "sha256": "a0ccb30a82b9310734d976c75283bd8e6b36714331e48e52ae2ba82a795cf5c7"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\compression.py",
+      "sha256": "94e6385c61ee2fc58d57e6148e6a945d444ffb9a91a7d936a9ff15e76a3b7ac1"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\hash_address.py",
+      "sha256": "be68abf30b1f1dd1910be3319579a9c51a689020162077b82cd9cfcbe46d1152"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\index.py",
+      "sha256": "a1dcf0d22566fc2b12b1b69939bd4652b546600485deef0fd84c174c04c83655"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\package.py",
+      "sha256": "a1b2b1a38b2a3512f9ea381c5f9ab2c71b97c12f7cd4a215e0db645262dcca48"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\storage.py",
+      "sha256": "a9d62cffce275663d8267484edd1c2e812177bc8dd6a4c71e132867e1ca8aade"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\test_babel.py",
+      "sha256": "6e31b93e82d368b5bc47f6b9ffb987fd0ce0439fdd4ed916d964541612ac5428"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\validator.py",
+      "sha256": "f8641bef3256e7c78399dc1475a951360131c7ce6e2dc3a0dc1bb6d6e4ff2d00"
+    }
+  ],
+  "method": "Actual current CLI add/get in isolated child processes; Windows GetProcessMemoryInfo sampled every 50 ms; inputs generated before measurement in 1 MiB blocks; temporary database and inputs deleted after test. Random bytes from os.urandom; actual Python sources bundled as deterministic tar for compressible-code case.",
+  "criterion": "For 1 GB compared to 100 MB: peak WS and commit growth <= 50,000,000 bytes. Integrity requires exact output byte count and SHA-256.",
+  "records": [
+    {
+      "case": "random_100000000",
+      "operation": "add",
+      "input_bytes": 100000000,
+      "input_sha256": "c78bdfb3d06bdfd9c4c2038f9643fe4d48af47f9701dcb52bd01be77a8ce8ba1",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23212032,
+      "peak_commit_bytes": 16896000,
+      "duration_seconds": 8.931,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_gvme67qd\\random_100000000\\input.bin\nHash: c78bdfb3d06bdfd9c4c2038f9643fe4d48af47f9701dcb52bd01be77a8ce8ba1\nEndereço: BABEL://sha256:c78bdfb3d06bdfd9c4c2038f9643fe4d48af47f9701dcb52bd01be77a8ce8ba1\nTamanho original: 100000000 bytes\nTamanho comprimido: 100030511 bytes",
+      "integrity_verified": false,
+      "status": "ADDED"
+    },
+    {
+      "case": "random_100000000",
+      "operation": "get",
+      "input_bytes": 100000000,
+      "input_sha256": "c78bdfb3d06bdfd9c4c2038f9643fe4d48af47f9701dcb52bd01be77a8ce8ba1",
+      "exit_code": 1,
+      "peak_working_set_bytes": 18903040,
+      "peak_commit_bytes": 12312576,
+      "duration_seconds": 0.325,
+      "output_bytes": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "integrity_verified": false,
+      "cli_output": "Traceback (most recent call last):\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\invoke_cli_memory_matrix.py\", line 5, in <module>\n    b=pathlib.Path(sys.argv[1]);spec=importlib.util.spec_from_file_location(\"babel_probe\",b/\"__init__.py\",submodule_search_locations=[str(b)]);m=importlib.util.module_from_spec(spec);sys.modules[\"babel_probe\"]=m;spec.loader.exec_module(m);cli=importlib.import_module(\"babel_probe.cli\");sys.argv=[\"babel\",*sys.argv[2:]];cli.main()\n                                                                                                                                                                                                                                                                                                                               ^^^^^^^^^^\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 178, in main\n    commands[args.command](args)\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 81, in cmd_get\n    f.write(payload)\nTypeError: a bytes-like object is required, not 'NoneType'",
+      "status": "FAIL"
+    },
+    {
+      "case": "random_300000000",
+      "operation": "add",
+      "input_bytes": 300000000,
+      "input_sha256": "3e01ef94d853d2e3bb06308aa27fadbb39a2cc369a88822df25f4fcf13fae20f",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23486464,
+      "peak_commit_bytes": 17133568,
+      "duration_seconds": 19.755,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_gvme67qd\\random_300000000\\input.bin\nHash: 3e01ef94d853d2e3bb06308aa27fadbb39a2cc369a88822df25f4fcf13fae20f\nEndereço: BABEL://sha256:3e01ef94d853d2e3bb06308aa27fadbb39a2cc369a88822df25f4fcf13fae20f\nTamanho original: 300000000 bytes\nTamanho comprimido: 300091521 bytes",
+      "integrity_verified": false,
+      "status": "ADDED"
+    },
+    {
+      "case": "random_300000000",
+      "operation": "get",
+      "input_bytes": 300000000,
+      "input_sha256": "3e01ef94d853d2e3bb06308aa27fadbb39a2cc369a88822df25f4fcf13fae20f",
+      "exit_code": 1,
+      "peak_working_set_bytes": 19050496,
+      "peak_commit_bytes": 12378112,
+      "duration_seconds": 1.277,
+      "output_bytes": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "integrity_verified": false,
+      "cli_output": "Traceback (most recent call last):\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\invoke_cli_memory_matrix.py\", line 5, in <module>\n    b=pathlib.Path(sys.argv[1]);spec=importlib.util.spec_from_file_location(\"babel_probe\",b/\"__init__.py\",submodule_search_locations=[str(b)]);m=importlib.util.module_from_spec(spec);sys.modules[\"babel_probe\"]=m;spec.loader.exec_module(m);cli=importlib.import_module(\"babel_probe.cli\");sys.argv=[\"babel\",*sys.argv[2:]];cli.main()\n                                                                                                                                                                                                                                                                                                                               ^^^^^^^^^^\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 178, in main\n    commands[args.command](args)\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 81, in cmd_get\n    f.write(payload)\nTypeError: a bytes-like object is required, not 'NoneType'",
+      "status": "FAIL"
+    },
+    {
+      "case": "random_1000000000",
+      "operation": "add",
+      "input_bytes": 1000000000,
+      "input_sha256": "12b8a364da75ba359330c94f2a219ab4ee338d603dfc2bcd1cd64f18e6137405",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23392256,
+      "peak_commit_bytes": 17125376,
+      "duration_seconds": 34.479,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_gvme67qd\\random_1000000000\\input.bin\nHash: 12b8a364da75ba359330c94f2a219ab4ee338d603dfc2bcd1cd64f18e6137405\nEndereço: BABEL://sha256:12b8a364da75ba359330c94f2a219ab4ee338d603dfc2bcd1cd64f18e6137405\nTamanho original: 1000000000 bytes\nTamanho comprimido: 1000305046 bytes",
+      "integrity_verified": false,
+      "status": "ADDED"
+    },
+    {
+      "case": "random_1000000000",
+      "operation": "get",
+      "input_bytes": 1000000000,
+      "input_sha256": "12b8a364da75ba359330c94f2a219ab4ee338d603dfc2bcd1cd64f18e6137405",
+      "exit_code": 1,
+      "peak_working_set_bytes": 19177472,
+      "peak_commit_bytes": 12521472,
+      "duration_seconds": 0.272,
+      "output_bytes": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "integrity_verified": false,
+      "cli_output": "Traceback (most recent call last):\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\invoke_cli_memory_matrix.py\", line 5, in <module>\n    b=pathlib.Path(sys.argv[1]);spec=importlib.util.spec_from_file_location(\"babel_probe\",b/\"__init__.py\",submodule_search_locations=[str(b)]);m=importlib.util.module_from_spec(spec);sys.modules[\"babel_probe\"]=m;spec.loader.exec_module(m);cli=importlib.import_module(\"babel_probe.cli\");sys.argv=[\"babel\",*sys.argv[2:]];cli.main()\n                                                                                                                                                                                                                                                                                                                               ^^^^^^^^^^\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 178, in main\n    commands[args.command](args)\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 81, in cmd_get\n    f.write(payload)\nTypeError: a bytes-like object is required, not 'NoneType'",
+      "status": "FAIL"
+    },
+    {
+      "case": "real_babel_python_sources_tar",
+      "operation": "add",
+      "input_bytes": 61440,
+      "input_sha256": "d59001b76c7a699ae2a5e68a0965dc75d6372a819a40cfea87cc2cc8e6ad7344",
+      "exit_code": 0,
+      "peak_working_set_bytes": 20353024,
+      "peak_commit_bytes": 13824000,
+      "duration_seconds": 0.422,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_gvme67qd\\real_code\\babel_sources.tar\nHash: d59001b76c7a699ae2a5e68a0965dc75d6372a819a40cfea87cc2cc8e6ad7344\nEndereço: BABEL://sha256:d59001b76c7a699ae2a5e68a0965dc75d6372a819a40cfea87cc2cc8e6ad7344\nTamanho original: 61440 bytes\nTamanho comprimido: 10183 bytes",
+      "status": "PASS"
+    },
+    {
+      "case": "real_babel_python_sources_tar",
+      "operation": "get",
+      "input_bytes": 61440,
+      "input_sha256": "d59001b76c7a699ae2a5e68a0965dc75d6372a819a40cfea87cc2cc8e6ad7344",
+      "exit_code": 1,
+      "peak_working_set_bytes": 19116032,
+      "peak_commit_bytes": 12468224,
+      "duration_seconds": 0.17,
+      "output_bytes": 0,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "integrity_verified": false,
+      "cli_output": "Traceback (most recent call last):\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\invoke_cli_memory_matrix.py\", line 5, in <module>\n    b=pathlib.Path(sys.argv[1]);spec=importlib.util.spec_from_file_location(\"babel_probe\",b/\"__init__.py\",submodule_search_locations=[str(b)]);m=importlib.util.module_from_spec(spec);sys.modules[\"babel_probe\"]=m;spec.loader.exec_module(m);cli=importlib.import_module(\"babel_probe.cli\");sys.argv=[\"babel\",*sys.argv[2:]];cli.main()\n                                                                                                                                                                                                                                                                                                                               ^^^^^^^^^^\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 178, in main\n    commands[args.command](args)\n  File \"C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py\", line 81, in cmd_get\n    f.write(payload)\nTypeError: a bytes-like object is required, not 'NoneType'",
+      "status": "FAIL"
+    }
+  ],
+  "measurement_notes": [
+    "A shim builtins.Optional=typing.Optional foi usada antes da importação do pacote devido ao NameError: Optional não definido em Babel TTC/validator.py; nenhum arquivo fonte foi alterado.",
+    "O add armazena sob <base>/payloads/payloads/<hash>, enquanto get_payload procura <base>/payloads/<hash>; todos os get falharam com TypeError ao receber None.",
+    "O critério relativo de memória foi satisfeito pelos picos de add 100MB vs 1GB; não avaliado para recuperação funcional porque get falhou."
+  ]
+}

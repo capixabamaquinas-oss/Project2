@@ -1,0 +1,160 @@
+{
+  "timestamp_local": "2026-10-07T02:11:54-03:00",
+  "machine": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\User PC\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "babel_dir": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC",
+  "babel_python_source_sha256": [
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\__init__.py",
+      "sha256": "22ff7e5cf66e302bdcad100da940e428c9f9206dce6866978c468f2c5ca96984"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\cli.py",
+      "sha256": "adc77946cbfe287b6bc879e7790015a855e600ebe0e25b5bebc80903c69f3f71"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\compression.py",
+      "sha256": "94e6385c61ee2fc58d57e6148e6a945d444ffb9a91a7d936a9ff15e76a3b7ac1"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\hash_address.py",
+      "sha256": "eac8558540b02af3dbe149a1b25b7212c6b886dc64cc28c30211880503e50668"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\index.py",
+      "sha256": "c966e0764b154c8f048a329c58811735ed52957546611ee1bfcfe03a13943e0e"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\package.py",
+      "sha256": "d2326459217ba836af444ba3791afa76dc9b7dc9fd6f7edbc462745c4df62bae"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\storage.py",
+      "sha256": "2b38ba529bb92b5ba212d38f8456cc4119a58a4bf529e1d129b81ef9a93c9d55"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\test_babel.py",
+      "sha256": "82783b94d1f36f52ad25abd396f63dacab4f29c0f7edf87adaecf80264d46e1c"
+    },
+    {
+      "path": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC\\validator.py",
+      "sha256": "93432cfec6b456f871764ce7cd565fdcc2fc564498062d1677c0a0ec543b4362"
+    }
+  ],
+  "method": "Actual current CLI add/get in isolated child processes; Windows GetProcessMemoryInfo sampled every 50 ms; inputs generated before measurement in 1 MiB blocks; temporary database and inputs deleted after test. Random bytes from os.urandom; actual Python sources bundled as deterministic tar for compressible-code case.",
+  "criterion": "For 1 GB compared to 100 MB: peak WS and commit growth <= 50,000,000 bytes. Integrity requires exact output byte count and SHA-256.",
+  "records": [
+    {
+      "case": "random_100000000",
+      "operation": "add",
+      "input_bytes": 100000000,
+      "input_sha256": "d9f1f5905671aabd154369c39ff2b99110f202b2f249975983980c4e7d48de58",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23617536,
+      "peak_commit_bytes": 17231872,
+      "duration_seconds": 6.655,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\random_100000000\\input.bin\nHash: d9f1f5905671aabd154369c39ff2b99110f202b2f249975983980c4e7d48de58\nEndereço: BABEL://sha256:d9f1f5905671aabd154369c39ff2b99110f202b2f249975983980c4e7d48de58\nTamanho original: 100000000 bytes\nTamanho comprimido: 100030511 bytes",
+      "integrity_verified": false,
+      "status": "ADDED"
+    },
+    {
+      "case": "random_100000000",
+      "operation": "get",
+      "input_bytes": 100000000,
+      "input_sha256": "d9f1f5905671aabd154369c39ff2b99110f202b2f249975983980c4e7d48de58",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23126016,
+      "peak_commit_bytes": 16429056,
+      "duration_seconds": 3.321,
+      "output_bytes": 100000000,
+      "output_sha256": "d9f1f5905671aabd154369c39ff2b99110f202b2f249975983980c4e7d48de58",
+      "integrity_verified": true,
+      "cli_output": "Arquivo recuperado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\random_100000000\\out.bin",
+      "status": "PASS"
+    },
+    {
+      "case": "random_300000000",
+      "operation": "add",
+      "input_bytes": 300000000,
+      "input_sha256": "a7f1892c4d8c438e132e3d4f12cd020131d49ac7e14eb9f0ed075201dc18b531",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23539712,
+      "peak_commit_bytes": 17133568,
+      "duration_seconds": 13.173,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\random_300000000\\input.bin\nHash: a7f1892c4d8c438e132e3d4f12cd020131d49ac7e14eb9f0ed075201dc18b531\nEndereço: BABEL://sha256:a7f1892c4d8c438e132e3d4f12cd020131d49ac7e14eb9f0ed075201dc18b531\nTamanho original: 300000000 bytes\nTamanho comprimido: 300091521 bytes",
+      "integrity_verified": false,
+      "status": "ADDED"
+    },
+    {
+      "case": "random_300000000",
+      "operation": "get",
+      "input_bytes": 300000000,
+      "input_sha256": "a7f1892c4d8c438e132e3d4f12cd020131d49ac7e14eb9f0ed075201dc18b531",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23212032,
+      "peak_commit_bytes": 16568320,
+      "duration_seconds": 2.415,
+      "output_bytes": 300000000,
+      "output_sha256": "a7f1892c4d8c438e132e3d4f12cd020131d49ac7e14eb9f0ed075201dc18b531",
+      "integrity_verified": true,
+      "cli_output": "Arquivo recuperado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\random_300000000\\out.bin",
+      "status": "PASS"
+    },
+    {
+      "case": "random_1000000000",
+      "operation": "add",
+      "input_bytes": 1000000000,
+      "input_sha256": "980a6ba0675c0b3501e75aae669d287babeb400d4b4e10827660cdbd909b1e4c",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23347200,
+      "peak_commit_bytes": 16928768,
+      "duration_seconds": 43.324,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\random_1000000000\\input.bin\nHash: 980a6ba0675c0b3501e75aae669d287babeb400d4b4e10827660cdbd909b1e4c\nEndereço: BABEL://sha256:980a6ba0675c0b3501e75aae669d287babeb400d4b4e10827660cdbd909b1e4c\nTamanho original: 1000000000 bytes\nTamanho comprimido: 1000305046 bytes",
+      "integrity_verified": false,
+      "status": "ADDED"
+    },
+    {
+      "case": "random_1000000000",
+      "operation": "get",
+      "input_bytes": 1000000000,
+      "input_sha256": "980a6ba0675c0b3501e75aae669d287babeb400d4b4e10827660cdbd909b1e4c",
+      "exit_code": 0,
+      "peak_working_set_bytes": 23449600,
+      "peak_commit_bytes": 16908288,
+      "duration_seconds": 7.716,
+      "output_bytes": 1000000000,
+      "output_sha256": "980a6ba0675c0b3501e75aae669d287babeb400d4b4e10827660cdbd909b1e4c",
+      "integrity_verified": true,
+      "cli_output": "Arquivo recuperado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\random_1000000000\\out.bin",
+      "status": "PASS"
+    },
+    {
+      "case": "real_babel_python_sources_tar",
+      "operation": "add",
+      "input_bytes": 51200,
+      "input_sha256": "a35802a09e476b929aa9b3068b61999e287c458c11c09e66b3f4d3617dd98689",
+      "exit_code": 0,
+      "peak_working_set_bytes": 20480000,
+      "peak_commit_bytes": 13840384,
+      "duration_seconds": 0.278,
+      "cli_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\real_code\\babel_sources.tar\nHash: a35802a09e476b929aa9b3068b61999e287c458c11c09e66b3f4d3617dd98689\nEndereço: BABEL://sha256:a35802a09e476b929aa9b3068b61999e287c458c11c09e66b3f4d3617dd98689\nTamanho original: 51200 bytes\nTamanho comprimido: 9337 bytes",
+      "status": "PASS"
+    },
+    {
+      "case": "real_babel_python_sources_tar",
+      "operation": "get",
+      "input_bytes": 51200,
+      "input_sha256": "a35802a09e476b929aa9b3068b61999e287c458c11c09e66b3f4d3617dd98689",
+      "exit_code": 0,
+      "peak_working_set_bytes": 20398080,
+      "peak_commit_bytes": 13717504,
+      "duration_seconds": 0.228,
+      "output_bytes": 51200,
+      "output_sha256": "a35802a09e476b929aa9b3068b61999e287c458c11c09e66b3f4d3617dd98689",
+      "integrity_verified": true,
+      "cli_output": "Arquivo recuperado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_memory_matrix_3qahhq_8\\real_code\\recovered.tar",
+      "status": "PASS"
+    }
+  ]
+}

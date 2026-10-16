@@ -1,0 +1,29 @@
+{
+  "timestamp_local": "2026-10-06T22:47:10-03:00",
+  "machine": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\User PC\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "babel_dir": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC",
+  "actual_entrypoint": "Babel TTC/cli.py:main -> cmd_add -> LocalDiskStorage.store_file_streaming -> storage.read -> BabelIndex.add_item",
+  "method": "1,000,000,000-byte OS-random input written before the measured child; invoke actual CLI add path in isolated process; Windows GetProcessMemoryInfo counters queried during and after child lifetime",
+  "input_size_bytes": 1000000000,
+  "input_sha256": "6ac8a143539d7ebed968d4be22070326cc974b336f6c26ca57e2c5787b33942d",
+  "input_generator": "os.urandom in 1 MiB blocks; not seeded; SHA-256 recorded",
+  "threshold_bytes": 200000000,
+  "threshold_basis": "FAIL if peak working set OR peak pagefile/commit reaches 200,000,000 bytes",
+  "baseline_memory": {
+    "working_set_bytes": 18059264,
+    "private_bytes": 11591680
+  },
+  "peak_working_set_bytes": 18530304,
+  "peak_pagefile_bytes": 11862016,
+  "peak_private_usage_bytes_at_last_sample": 77824,
+  "duration_seconds": 2.454,
+  "child_exit_code": 1,
+  "stored_item_row": null,
+  "alias_count": null,
+  "add_integrity_verified": false,
+  "verdict": "FALHA DE EXECUÇÃO/INTEGRIDADE",
+  "cli_output": "Traceback (most recent call last):\n  File \"C:\\OllamaLimit\\Sei l�\\Projeto TTC\\experimentos TTC\\_work\\memory_1gb_real_ve3_f5qy\\invoke_actual_babel_cli.py\", line 24, in <module>\n    cli.main()\n  File \"C:\\OllamaLimit\\Sei l�\\Projeto TTC\\Babel TTC\\cli.py\", line 182, in main\n    commands[args.command](args)\n  File \"C:\\OllamaLimit\\Sei l�\\Projeto TTC\\Babel TTC\\cli.py\", line 21, in cmd_add\n    pkg.open()\n  File \"C:\\OllamaLimit\\Sei l�\\Projeto TTC\\Babel TTC\\package.py\", line 29, in open\n    raise FileNotFoundError(f\"Pacote n�o encontrado: {self.package_path}\")\nFileNotFoundError: Pacote n�o encontrado: C:\\OllamaLimit\\Sei l�\\Projeto TTC\\experimentos TTC\\_work\\memory_1gb_real_ve3_f5qy\\babel.sqlite\n",
+  "source_and_database_cleaned_after_measurement": true
+}

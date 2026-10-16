@@ -1,0 +1,31 @@
+{
+  "add_exit": 0,
+  "add_output": "Arquivo adicionado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_stage1_audit_bk8x4rej\\source_pkg\\sample.bin\nHash: ad5ca211e1eed04794516a21574a634c798219028daeaaf661ded81771a6c461\nEndereço: ad5ca211e1eed04794516a21574a634c798219028daeaaf661ded81771a6c461:0/0/0/0/0\nTamanho original: 32 bytes\nTamanho comprimido: 40 bytes\n",
+  "get_exit": 0,
+  "get_output": "Arquivo recuperado: C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_stage1_audit_bk8x4rej\\roundtrip.bin\n",
+  "small_file_add_get_byte_exact": true,
+  "source_item_count": 1,
+  "export_exit": 0,
+  "import_exit": 0,
+  "import_output": "Importados 1 itens de C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\_work\\babel_stage1_audit_bk8x4rej\\source.babel\n",
+  "imported_item_count_after_import_returns": 0,
+  "imported_get_exit": 1,
+  "imported_get_stderr": "Erro: endereço não encontrado: docs/sample.bin\n",
+  "new_package_import_get_byte_exact": false,
+  "tampered_get_exit": 0,
+  "tampered_get_succeeded": true,
+  "tampered_get_wrote_wrong_bytes": true,
+  "verify_corrupt_exit": 1,
+  "verify_corrupt_stderr": "ERRO: Conteúdo corrompido: docs/sample.bin\n",
+  "address_a_order1": "e8a964a77897568f9cf00fc0dd132399d2869da5020735b3b7b29403370d9dab:0/0/0/0/0",
+  "address_a_order2": "e8a964a77897568f9cf00fc0dd132399d2869da5020735b3b7b29403370d9dab:0/0/0/0/1",
+  "address_independent_of_insertion_order": false,
+  "sample_sha256": "ad5ca211e1eed04794516a21574a634c798219028daeaaf661ded81771a6c461",
+  "checks": {
+    "basic_add_get": true,
+    "import_to_new_package": false,
+    "get_detects_tampering": false,
+    "address_stable_across_order": false
+  },
+  "all_functional_checks_pass": false
+}

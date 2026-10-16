@@ -1,0 +1,34 @@
+test_01_arquivo_vazio (test_babel.TestBabelV1.test_01_arquivo_vazio)
+Arquivo vazio deve ser armazenado e recuperado corretamente. ... ok
+test_02_um_byte (test_babel.TestBabelV1.test_02_um_byte)
+Arquivo de 1 byte deve ser armazenado e recuperado. ... ok
+test_03_so_zeros (test_babel.TestBabelV1.test_03_so_zeros)
+Arquivo com apenas bytes 0x00 deve ser armazenado corretamente. ... ok
+test_04_zeros_a_esquerda (test_babel.TestBabelV1.test_04_zeros_a_esquerda)
+Zeros à esquerda devem ser preservados. ... ok
+test_05_utf8_emoji_acentos (test_babel.TestBabelV1.test_05_utf8_emoji_acentos)
+UTF-8 com emoji e acentos deve ser preservado. ... ok
+test_06_crlf_lf (test_babel.TestBabelV1.test_06_crlf_lf)
+CRLF e LF devem ser preservados sem conversão. ... ok
+test_07_sem_quebra_final (test_babel.TestBabelV1.test_07_sem_quebra_final)
+Arquivo sem quebra de linha final deve ser preservado. ... ok
+test_08_arquivo_1gb_streaming (test_babel.TestBabelV1.test_08_arquivo_1gb_streaming)
+Arquivo grande deve ser processado em streaming sem carregar tudo na memória. ... ok
+test_09_bloco_corrompido (test_babel.TestBabelV1.test_09_bloco_corrompido)
+Corrupção de dados deve ser detectada pelo validador. ... ok
+test_10_mesclar_pacotes (test_babel.TestBabelV1.test_10_mesclar_pacotes)
+Mesclar pacotes com arquivos em comum não deve duplicar. ... ok
+test_11_endereco_estavel (test_babel.TestBabelV1.test_11_endereco_estavel)
+Endereço deve ser o mesmo entre execuções diferentes. ... ok
+test_compressao (test_babel.TestBabelV1.test_compressao)
+Compressão e descompressão devem ser inversíveis. ... ok
+test_coordenadas (test_babel.TestBabelV1.test_coordenadas)
+Coordenadas devem ser atribuídas corretamente. ... ok
+test_deduplicacao (test_babel.TestBabelV1.test_deduplicacao)
+Adicionar o mesmo conteúdo duas vezes não deve duplicar. ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.768s
+
+OK
+SUITE_RESULT tests=14 failures=0 errors=0 skipped=0

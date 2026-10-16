@@ -1,0 +1,20 @@
+test_01_round_trip_edge_files (test_babel.TestBabelV1.test_01_round_trip_edge_files) ... ok
+test_02_sha_address_resolves_same_content (test_babel.TestBabelV1.test_02_sha_address_resolves_same_content) ... ok
+test_03_dedup_and_aliases (test_babel.TestBabelV1.test_03_dedup_and_aliases) ... ok
+test_04_add_writes_payload_outside_sqlite_and_per_package (test_babel.TestBabelV1.test_04_add_writes_payload_outside_sqlite_and_per_package) ... ok
+test_05_verify_detects_payload_tampering (test_babel.TestBabelV1.test_05_verify_detects_payload_tampering) ... ok
+test_06_get_tampering_fails_without_partial_output (test_babel.TestBabelV1.test_06_get_tampering_fails_without_partial_output) ... ok
+test_07_export_import_new_package_round_trip (test_babel.TestBabelV1.test_07_export_import_new_package_round_trip) ... ok
+test_08_cli_add_streams_real_file_and_uses_sidecar (test_babel.TestBabelV1.test_08_cli_add_streams_real_file_and_uses_sidecar) ... ok
+test_09_retry_after_simulated_index_failure (test_babel.TestBabelV1.test_09_retry_after_simulated_index_failure) ... ok
+test_10_address_is_independent_of_insertion_order (test_babel.TestBabelV1.test_10_address_is_independent_of_insertion_order) ... ok
+test_11_zip_slip_is_rejected (test_babel.TestBabelV1.test_11_zip_slip_is_rejected) ... ok
+test_compression_helpers_round_trip (test_babel.TestBabelV1.test_compression_helpers_round_trip) ... ok
+test_coordinates_are_deterministic_from_hash (test_babel.TestBabelV1.test_coordinates_are_deterministic_from_hash) ... ok
+test_import_rejects_tampered_payload_before_indexing (test_babel.TestBabelV1.test_import_rejects_tampered_payload_before_indexing) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.544s
+
+OK
+SUITE_RESULT tests=14 failures=0 errors=0 skipped=0

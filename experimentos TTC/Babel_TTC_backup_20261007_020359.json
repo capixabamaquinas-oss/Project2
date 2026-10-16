@@ -1,0 +1,43 @@
+{
+  "created": "2026-10-07T02:04:00.7776014-03:00",
+  "source": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\Babel TTC",
+  "backup": "C:\\OllamaLimit\\Sei lá\\Projeto TTC\\experimentos TTC\\Babel_TTC_backup_20261007_020359.zip",
+  "files": [
+    {
+      "Name": "__init__.py",
+      "SHA256": "22ff7e5cf66e302bdcad100da940e428c9f9206dce6866978c468f2c5ca96984"
+    },
+    {
+      "Name": "cli.py",
+      "SHA256": "a0ccb30a82b9310734d976c75283bd8e6b36714331e48e52ae2ba82a795cf5c7"
+    },
+    {
+      "Name": "compression.py",
+      "SHA256": "94e6385c61ee2fc58d57e6148e6a945d444ffb9a91a7d936a9ff15e76a3b7ac1"
+    },
+    {
+      "Name": "hash_address.py",
+      "SHA256": "be68abf30b1f1dd1910be3319579a9c51a689020162077b82cd9cfcbe46d1152"
+    },
+    {
+      "Name": "index.py",
+      "SHA256": "a1dcf0d22566fc2b12b1b69939bd4652b546600485deef0fd84c174c04c83655"
+    },
+    {
+      "Name": "package.py",
+      "SHA256": "a1b2b1a38b2a3512f9ea381c5f9ab2c71b97c12f7cd4a215e0db645262dcca48"
+    },
+    {
+      "Name": "storage.py",
+      "SHA256": "a9d62cffce275663d8267484edd1c2e812177bc8dd6a4c71e132867e1ca8aade"
+    },
+    {
+      "Name": "test_babel.py",
+      "SHA256": "6e31b93e82d368b5bc47f6b9ffb987fd0ce0439fdd4ed916d964541612ac5428"
+    },
+    {
+      "Name": "validator.py",
+      "SHA256": "f8641bef3256e7c78399dc1475a951360131c7ce6e2dc3a0dc1bb6d6e4ff2d00"
+    }
+  ]
+}
