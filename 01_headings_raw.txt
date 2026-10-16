@@ -1,0 +1,39 @@
+[0] Heading1 Dossiê Operacional — Babel Pura App v3 (revisado)
+[2] Heading2 0. O que mudou da v2 para a v3
+[48] Heading2 1. Finalidade, escopo e separação
+[70] Heading2 2. Estado epistêmico e precedência
+[95] Heading2 3. Requisitos do app
+[99] Heading3 3.1 Experiência
+[104] Heading3 3.2 Texto versus bytes
+[107] Heading3 3.3 Fora do escopo da primeira versão
+[111] Heading2 4. Núcleo matemático H1
+[113] Heading3 4.1 Definição
+[117] Heading3 4.2 Prova de bijeção (DERIVADO MATEMATICAMENTE)
+[120] Heading3 4.3 Consequências para a implementação
+[127] Heading2 5. Índice, endereço textual e limites
+[129] Heading3 5.1 Camadas
+[142] Heading3 5.2 Serialização canônica (PROPOSTA)
+[149] Heading3 5.3 Formatos candidatos
+[177] Heading3 5.4 Checksum e versão (Q2)
+[182] Heading3 5.5 Limites e entrada hostil
+[189] Heading2 6. Arquitetura técnica
+[213] Heading2 7. Governança e propriedade das pastas
+[252] Heading2 8. Fases, gates e primeira rodada
+[264] Heading2 9. Evidência, auditoria e critérios de aceitação
+[266] Heading3 9.1 Protocolo do auditor
+[274] Heading3 9.2 Critérios de aceitação
+[314] Heading3 9.3 Matriz mínima de testes
+[337] Heading2 10. Instruções individuais para repasse
+[339] Heading3 10.1 Diretor
+[341] Heading3 10.2 ChatGPT, consultor e arquiteto
+[343] Heading3 10.3 OpenCode, engenheiro
+[345] Heading3 10.4 Claude Code, auditor
+[347] Heading3 10.5 Codex, pesquisador
+[349] Heading3 10.6 Claude, revisor científico
+[351] Heading3 10.7 Aider
+[353] Heading2 11. Riscos, handoff e limites declarados
+[355] Heading3 11.1 Registro de riscos
+[392] Heading3 11.2 Protocolo de handoff
+[398] Heading3 11.3 Modelo obrigatório de entrega
+[400] Heading3 11.4 Limites declarados da v3
+[406] Heading2 12. Decisões em aberto e próxima ação

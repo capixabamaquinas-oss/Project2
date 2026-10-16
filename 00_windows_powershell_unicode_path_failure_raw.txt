@@ -1,0 +1,10 @@
+=== SHA-256: source files (sorted) ===
+Get-ChildItem : Não é possível localizar o caminho 'C:\OllamaLimit\Sei lÃ¡\Projeto TTC\Babel Pura TTC' porque ele não 
+existe.
+No C:\OllamaLimit\Sei lá\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015\00_baseline.ps1:6 caractere:12
++ $files = @(Get-ChildItem -LiteralPath $project -Force -Recurse -File  ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\OllamaLimit\...\Babel Pura TTC:String) [Get-ChildItem], ItemNotFound 
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 

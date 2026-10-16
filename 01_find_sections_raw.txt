@@ -1,0 +1,27 @@
+[25] Q2 só pergunta qual checksum
+[26] Q2 distingue checksum sobre o texto do endereço (detecta digitação) e sobre os bytes reconstruídos (verificação de ponta a ponta).
+[98] Decodificar: endereço textual → limites, validação e checksum → índice interno → codec H1 → bytes → visualizar ou salvar.
+[102] Erros distinguem: sintaxe, versão, checksum, limite, forma não canônica e falha de E/S.
+[141] Prefixo, versão, serialização e checksum determinístico, se aprovados
+[177] 5.4 Checksum e versão (Q2)
+[178] Sem checksum, trocar um caractere ou truncar o texto produz outro arquivo válido, sem aviso.
+[179] Com checksum, a bijeção do produto passa a valer entre os bytes e os endereços válidos, desde que a serialização seja canônica e o checksum determinístico.
+[180] Duas opções a decidir, combináveis (C-05): checksum sobre o texto do índice, que detecta digitação sem reconstruir o arquivo; ou checksum sobre os bytes reconstruídos, que verifica a decodificação de ponta a ponta mas exige reconstruir antes de validar.
+[181] Checksum não é autenticação, e nenhum checksum finito detecta toda modificação possível.
+[182] 5.5 Limites e entrada hostil
+[185] Validar prefixo, versão, alfabeto, forma canônica e checksum antes de produzir qualquer saída.
+[188] Os valores numéricos pertencem às questões Q4 e Q7 (ABERTAS); enquanto não existirem, os critérios de escala e de entrada gigante ficam BLOQUEADOS.
+[191] babel_pura/  codec.py      # bijeção B* e N0; sem UI, rede ou banco  address.py    # envelope textual canônico, parser, checksum e versão  limits.py     # limites numéricos e verificação prévia de tamanho  fileio.py     # leitura e gravação binária segura (nunca io.py)  service.py    # orquestração; sem matemática duplicada  errors.py     # erros estruturados  ui/           # somente depois dos gates do núcleotests/  test_codec.py  test_address.py  test_limits.py  test_fileio.py  test_integration.py  vectors/      # vetores canônicos congeladosexperiments/    # só o Codex escreve  address_formats/  performance/  memory/audits/         # relatórios do auditor; não altera o produto
+[197] UI, rede, banco, checksum de produto
+[259] Diretor: aprova a lista curta de formatos, checksums e estratégias (BP-G0A).
+[306] Entrada malformada, checksum inválido, versão desconhecida e caso gigante falham de forma limpa, sem traceback esperado e sem arquivo parcial
+[326] canonização, caixa, caracteres inválidos, prefixo, versão, checksum, truncamento, troca de um caractere, quebra de linha dentro do endereço
+[335] Escala
+[342] Sua missão é preparar a BP1 normativa e os handoffs.- Separe o núcleo H1 (B* e N0) do endereço textual externo.- Use DERIVADO para resultados matemáticos e não invente decisões do Diretor.- Na BP1, defina: o algoritmo exato de soma e subtração com vai-um (direção e número de passagens), a serialização canônica, a marca do vazio, a política de espaços e quebras de linha, as opções de checksum (sobre o texto e sobre os bytes reconstruídos) e o cálculo do tamanho exato de saída.- Apresente candidatos e trade-offs para Q1 a Q8.- Não envie tarefa ampla ao OpenCode antes do BP-G0B.- Para cada tarefa, defina arquivos permitidos, critérios, evidência esperada e o que fica fora de escopo.
+[344] Você edita somente babel_pura/ e tests/ na fase autorizada.- Implemente a BP1 aprovada literalmente; não invente formato, checksum, limite ou codificação.- Use fileio.py, nunca io.py.- Preserve os bytes sem normalização.- Cada teste novo falha quando a regressão correspondente é reintroduzida.- Entregue SHA-256 completo, comandos exatos e saída bruta de compileall e unittest -v.- Não edite experiments/ e não audite a própria entrega.
+[350] Você é o revisor científico.- Verifique se R_n particiona N0 e se o vazio e os zeros à esquerda estão corretos.- Verifique a separação entre a bijeção do núcleo e o conjunto de endereços textuais válidos.- Não chame checksum de autenticação nem afirme detecção perfeita.- Confirme que as conclusões experimentais não excedem os dados.- Rotule cada afirmação: MEDIDO, DERIVADO, INFERIDO, PROPOSTA, HIPÓTESE, NÃO VERIFICADO ou DECISÃO DO DIRETOR.
+[361] Envelope canônico com checksum; o checksum não elimina toda colisão
+[373] Limites antes de decodificar; testes de +1 e entrada hostil
+[404] Os valores numéricos de escala, memória e entrada ainda exigem medição e decisão.
+[415] Qual checksum, com quantos bits, cobrindo o texto do índice, os bytes reconstruídos ou ambos?
+[435] O ChatGPT prepara a BP1 normativa, com a lista curta de formatos, checksums e estratégias para Q1 a Q8, e a entrega ao Claude para revisão. O Diretor aprova a lista curta (BP-G0A) antes de qualquer benchmark do Codex. O OpenCode não recebe a ordem "crie o app completo": a primeira tarefa de código só existe depois do BP-G0B, com o contrato BP1 congelado.

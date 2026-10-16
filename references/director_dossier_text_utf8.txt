@@ -1,0 +1,319 @@
+Dossiê Operacional — Babel Pura App v3 (revisado)
+Oct 13, 2026 · @Joao Vitor
+0. O que mudou da v2 para a v3
+A v3 mantém a arquitetura da v2, confirma a prova de bijeção e corrige doze pontos. Nenhuma correção abaixo é decisão do Diretor: as que exigem escolha de produto entram como proposta ou questão aberta.
+ID | Ponto na v2 | Correção na v3 | Rótulo
+C-01 | Q3 "parcialmente resolvida": a soma byte a byte seria segmentável | O vai-um corre do último byte para o primeiro e pode atravessar uma sequência longa de bytes altos (0xFE/0xFF). Uma única passagem do início ao fim não basta: é preciso ler em ordem inversa ou em duas passagens. A revisão anterior omitiu isso e a v2 o repetiu. | DERIVADO
+C-02 | R4: inteiro monolítico "custa CPU/memória" | Com bases potência de 2, converter bytes e inteiro é linear. O custo real é memória proporcional ao arquivo (várias cópias). A invariante "memória independente do tamanho" da V1 só vale para o caminho arquivo para arquivo. | INFERIDO; Codex mede
+C-03 | MAX_OUTPUT_BYTES por "estimativa superior" | O tamanho decodificado sai exato do comprimento do texto canônico: n = m ou n = m − 1, sendo m os bytes do índice. A checagem pode ser exata. | DERIVADO
+C-04 | Hex, base32 e base64url sem dizer o que se codifica | Definir: bytes mínimos do índice em big-endian, codificados como RFC 4648 sem padding, com regras de canonicidade (§5.2). | PROPOSTA
+C-05 | Q2 só pergunta qual checksum | Q2 distingue checksum sobre o texto do endereço (detecta digitação) e sobre os bytes reconstruídos (verificação de ponta a ponta). | PROPOSTA
+C-06 | Gates e questões inconsistentes | Gates nomeados BP-G0A a BP-G5; Q4 e Q5 entram nas decisões do Diretor; BP-AC09 passa a depender da Q6; a Q5 do dossiê inicial é a Q8 da v2. | CORREÇÃO
+C-07 | Auditor "somente leitura" roda compileall e unittest | Esses comandos gravam pycache na árvore auditada. A auditoria passa a ser feita numa cópia descartável, com hash conferido antes e comando exato registrado. | DERIVADO
+C-08 | Rótulos incompletos | PROPOSTA, ABERTA e BLOQUEADO entram no vocabulário (§2). | CORREÇÃO
+C-09 | Testes sem prova de partição | Teste exaustivo até 2 bytes: a imagem de E deve ser exatamente [0, 65.792]. Novos casos: maiúscula/minúscula, quebra de linha dentro do endereço e decodificação de bytes não textuais. | PROPOSTA
+C-10 | Escopo do produto | Registrada a escolha B do Diretor em 13/10/2026: só o sistema de armazenamento H1 por bytes; nada do site da Biblioteca de Babel nem de sua forma. | DECISÃO DO DIRETOR
+C-11 | Codex sem experimentos atribuídos | O Codex aparecia em uma etapa e em uma fase, sem lista de experimentos; faltavam a repetição de medições nos gates (passo 9 da v2) e a medição por plataforma. Entra a tabela X1 a X7 (§7.1), com pergunta, questão e fase de cada experimento. | CORREÇÃO
+C-12 | ChatGPT com tarefas além de instruir | Saem do ChatGPT a definição do algoritmo, a análise dos resultados e a matriz de decisão. Ele só instrui: escreve a BP1 e as tarefas como instruções, explica as opções ao Diretor e direciona cada assunto ao componente certo. | CORREÇÃO
+1. Finalidade, escopo e separação
+A Babel Pura App é um app simples que transforma texto ou arquivo em um endereço autossuficiente e reconstrói exatamente os mesmos bytes a partir dele. Interessa só o sistema de armazenamento, não o site da Biblioteca de Babel nem sua navegação (DECISÃO DO DIRETOR, 13/10/2026).
+Projeto | Mecanismo | O conteúdo existe fora do endereço? | Estado
+Babel V1 prática | H2: SHA-256 + payload + índice | Sim | Existente; não alterar por causa da Babel Pura
+Babel Pura App | H1: representação autossuficiente e reversível | Não, para a reconstrução lógica | Novo; contrato em definição
+Pesquisa de armazenamento extremo | Linha teórica mais ampla | Não definido aqui | Separada; não é requisito automático
+A Babel Pura herda a disciplina de evidência e a governança da V1. Não herda a arquitetura H2, o SHA-256 como endereço, o banco de metadados, os payloads nem a interface de outros projetos.
+H1 autossuficiente não é compressão universal: o endereço precisa carregar informação suficiente para distinguir o conteúdo (DERIVADO MATEMATICAMENTE).
+Nenhum agente troca H1 por hash + banco para facilitar a implementação sem autorização do Diretor.
+Nenhum agente chama a Babel Pura de compressão, armazenamento infinito ou redução garantida de tamanho.
+2. Estado epistêmico e precedência
+Toda afirmação do projeto leva um destes rótulos; uma recomendação de agente nunca vira decisão sozinha.
+Rótulo | Uso
+DECISÃO DO DIRETOR | Escolha aprovada explicitamente pelo Diretor
+DERIVADO MATEMATICAMENTE | Consequência demonstrável da definição adotada
+MEDIDO | Resultado de experimento reproduzível, com ambiente, comando e saída
+INFERIDO | Conclusão plausível, não demonstrada nem medida
+PROPOSTA | Recomendação sujeita a aprovação do Diretor
+HIPÓTESE | A testar
+ABERTA | Questão que depende de decisão ou medição
+BLOQUEADO | Não pode ser marcado como aprovado até existir o dado que falta
+NÃO VERIFICADO | Falta artefato, execução, prova ou informação
+A restrição de informação é sempre DERIVADO MATEMATICAMENTE.
+Resultados da Babel V1 (por exemplo, a medição de 1 MB em hexadecimal) são indicativos e não se transferem automaticamente para a Babel Pura.
+Decisões explícitas do Diretor sobre a Babel Pura prevalecem sobre qualquer recomendação antiga da V1.
+3. Requisitos do app
+O app tem duas ações centrais, Codificar e Decodificar, e esconde a matemática sem esconder os limites reais do mecanismo.
+Codificar: texto ou arquivo → bytes → codec H1 → índice interno → envelope textual → copiar ou salvar.
+Decodificar: endereço textual → limites, validação e checksum → índice interno → codec H1 → bytes → visualizar ou salvar.
+3.1 Experiência
+Antes de operações grandes, mostrar o tamanho da entrada e o tamanho estimado do endereço textual.
+Para endereços extensos, permitir salvar e carregar como arquivo, sem depender da área de transferência.
+Erros distinguem: sintaxe, versão, checksum, limite, forma não canônica e falha de E/S.
+O núcleo funciona offline. Rede, conta e nuvem ficam fora da primeira versão até nova decisão.
+3.2 Texto versus bytes
+O núcleo opera só em bytes. O modo Texto precisa de política explícita de codificação, sem normalizar Unicode, quebras de linha ou espaços (Q8).
+Na decodificação, a interface não pode supor que o resultado é texto: bytes que não formam UTF-8 válido são mostrados como binário e só podem ser salvos como arquivo.
+3.3 Fora do escopo da primeira versão
+Imitar a estética ou a navegação do site; buscar em "todas as páginas possíveis".
+Prometer compressão ou economia de espaço.
+Criptografia, rede, colaboração ou IA dentro do app, sem nova decisão.
+4. Núcleo matemático H1
+O núcleo é a bijeção E entre todas as sequências finitas de bytes B* e os naturais N0. A prova curta da v2 está correta; esta seção a repete em forma de contrato e acrescenta as consequências para a implementação.
+4.1 Definição
+Para x com n bytes x_0 ... x_(n-1):
+v(x) = \sum_{i=0}^{n-1} x_i \, 256^{\,n-1-i}
+
+O_n = \frac{256^n - 1}{255} = 1 + 256 + \dots + 256^{n-1}
+
+E(x) = O_n + v(x)
+Para a sequência vazia, n = 0, O_0 = 0 e E = 0. Para n ≥ 1, O_n escrito em base 256 são exatamente n bytes 0x01.
+4.2 Prova de bijeção (DERIVADO MATEMATICAMENTE)
+As sequências de comprimento n ocupam o intervalo R_n = [O_n, O_(n+1) − 1], porque O_(n+1) = O_n + 256^n. Os intervalos R_0, R_1, R_2, ... são não vazios, disjuntos e consecutivos, e cobrem N0 (O_0 = 0 e O_n cresce sem limite). Dentro de R_n, subtrair O_n devolve um único v em [0, 256^n − 1], que volta a exatamente n bytes. Logo E é bijetiva.
+O revisor conferiu a álgebra; não executou código. Testes de exemplos validam a implementação, não a propriedade.
+4.3 Consequências para a implementação
+Tamanho exato. Se o índice tem m bytes na forma binária mínima, então n = m quando E ≥ O_m e n = m − 1 quando E < O_m (DERIVADO). O tamanho de saída é conhecido antes de decodificar.
+Vazio. A sequência vazia é o natural 0, cuja forma binária mínima é vazia. O envelope precisa de uma marca explícita para esse caso (Q5).
+Sem divisão grande. E(x) é a soma de x com n bytes 0x01. Nenhuma conversão decimal é necessária.
+Direção do vai-um (C-01). A soma, e a subtração na decodificação, propagam o vai-um do último byte para o primeiro e podem atravessar uma sequência longa de bytes altos. Uma passagem única do início ao fim não basta em memória constante; a BP1 deve escolher leitura em ordem inversa ou duas passagens.
+Inteiro monolítico (C-02). Em Python, converter bytes e inteiro em bases potência de 2 deve ser linear (INFERIDO; o Codex mede). O custo esperado é de memória, proporcional ao arquivo.
+Ordem. E ordena as sequências primeiro por comprimento e depois por valor. Isso gera um teste forte (§9).
+5. Índice, endereço textual e limites
+O índice H1 e o endereço que o usuário copia são camadas diferentes. No núcleo todo natural é um índice válido, então, sem envelope de integridade, um erro de digitação sempre decodifica para outro arquivo (DERIVADO).
+5.1 Camadas
+Camada | Domínio | Função
+Núcleo H1 | B* e N0 | Bijeção pura; todo natural é válido
+Serialização | N0 e texto canônico | Representar o índice em formato aprovado, sem integridade
+Envelope externo | B* e strings válidas | Prefixo, versão, serialização e checksum determinístico, se aprovados
+5.2 Serialização canônica (PROPOSTA)
+Serializar os bytes mínimos do índice, em big-endian e sem byte zero à esquerda, com RFC 4648 sem padding. Serializar o inteiro como dígitos em base 32 daria outro texto; só uma das duas formas pode existir. Para a grafia ser única, a BP1 fixa:
+alfabeto e caixa (hexadecimal minúsculo; base32 ou base64url na caixa definida);
+ausência de padding e bits finais não usados iguais a zero;
+ausência de byte zero à esquerda;
+marca explícita para o vazio, já que o natural 0 tem forma binária mínima vazia;
+política para espaços e quebras de linha dentro do endereço (rejeitar ou remover antes de validar), porque editores quebram textos longos.
+5.3 Formatos candidatos
+Para m bytes do índice, sem contar o envelope:
+Formato | Comprimento | Razão sobre os bytes | Observação | Estado
+Hexadecimal | 2m | 2,00× | Simples e sem ambiguidade de caixa se for minúsculo | Candidato
+Base32 sem padding | ceil(8m/5) | 1,60× | Alfabeto A–Z e 2–7, sem 0, 1, 8 e 9 | Candidato
+Base64url sem padding | ceil(4m/3) | 1,33× | Mais compacto; '-' e '_' podem colidir com separadores; diferencia caixa | Candidato
+Decimal | cerca de 2,41 dígitos por byte | 2,41× | Conversão quadrática e limite de 4.300 dígitos do Python | EXCLUÍDO da V1
+Como m é n ou n + 1, a diferença de um byte é desprezível em entradas grandes. O envelope soma um overhead pequeno e fixo.
+5.4 Checksum e versão (Q2)
+Sem checksum, trocar um caractere ou truncar o texto produz outro arquivo válido, sem aviso.
+Com checksum, a bijeção do produto passa a valer entre os bytes e os endereços válidos, desde que a serialização seja canônica e o checksum determinístico.
+Duas opções a decidir, combináveis (C-05): checksum sobre o texto do índice, que detecta digitação sem reconstruir o arquivo; ou checksum sobre os bytes reconstruídos, que verifica a decodificação de ponta a ponta mas exige reconstruir antes de validar.
+Checksum não é autenticação, e nenhum checksum finito detecta toda modificação possível.
+5.5 Limites e entrada hostil
+Definir MAX_ADDRESS_CHARS antes da fase de app e rejeitar acima dele antes de qualquer decodificação ou alocação proporcional.
+Verificar MAX_OUTPUT_BYTES com o tamanho exato calculado em §4.3, antes de reconstruir.
+Validar prefixo, versão, alfabeto, forma canônica e checksum antes de produzir qualquer saída.
+Gravar em temporário e publicar só após a validação completa.
+Medir o pico real do processo (RSS no Linux; Working Set e commit no Windows), nunca só tracemalloc.
+Os valores numéricos pertencem às questões Q4 e Q7 (ABERTAS); enquanto não existirem, os critérios de escala e de entrada gigante ficam BLOQUEADOS.
+6. Arquitetura técnica
+O núcleo é testável sem interface: a UI chama o service, o service orquestra codec, address, limits e fileio, e nenhuma camada duplica a matemática. Nomes de arquivos são provisórios até o Diretor aprovar o layout.
+babel_pura/
+  codec.py      # bijeção B* e N0; sem UI, rede ou banco
+  address.py    # envelope textual canônico, parser, checksum e versão
+  limits.py     # limites numéricos e verificação prévia de tamanho
+  fileio.py     # leitura e gravação binária segura (nunca io.py)
+  service.py    # orquestração; sem matemática duplicada
+  errors.py     # erros estruturados
+  ui/           # somente depois dos gates do núcleo
+tests/
+  test_codec.py  test_address.py  test_limits.py
+  test_fileio.py  test_integration.py
+  vectors/      # vetores canônicos congelados
+experiments/    # só o Codex escreve
+  address_formats/  performance/  memory/
+audits/         # relatórios do auditor; não altera o produto
+Componente | Responsabilidade | Proibido
+codec | Implementar o mapeamento H1 aprovado | UI, rede, banco, checksum de produto
+address | Serialização canônica e envelope externo | Mudar o mapeamento H1
+limits | Limites numéricos e rejeição antecipada | Alocar proporcionalmente antes de validar
+fileio | E/S binária segura e temporários | Normalizar texto ou codificação
+service | Orquestrar codec, address, limits e fileio | Duplicar regra matemática
+ui | Codificar, Decodificar e progresso | Implementar outro codec
+7. Governança e propriedade das pastas
+Um escritor por vez em cada área, e nenhum agente sobrescreve em silêncio o trabalho de outro.
+Componente | Papel | Pode | Não pode
+Diretor | Autoridade final | Aprovar contratos, candidatos, gates e limites | Ser substituído por recomendação de agente
+ChatGPT | Consultor e arquiteto: só instrui | Escrever a BP1 e as tarefas como instruções, explicar as opções ao Diretor e direcionar cada assunto ao componente certo | Escrever código; executar, medir ou auditar; derivar matemática; analisar resultados; escolher pelo Diretor; declarar implementação aprovada
+OpenCode | Engenheiro | Editar babel_pura/ e tests/ na fase liberada | Decidir matemática, formato ou limites; editar experiments/; auditar a própria entrega
+Claude Code | Auditor | Auditar uma cópia descartável e citar evidência exata | Editar o produto; usar linha aproximada
+Codex | Pesquisador experimental | Executar os experimentos X1 a X7 (§7.1) em experiments/ e reportar trade-offs com evidência reproduzível | Editar babel_pura/ ou tests/; escolher candidato; decidir pelo Diretor
+Claude | Revisor científico | Revisar prova, inferências e medições | Editar o produto; converter hipótese em fato
+Aider | Fora do fluxo | Nada por padrão | Atuar sem reintrodução explícita do Diretor
+babel_pura/ e tests/: só o OpenCode, durante uma fase autorizada.
+experiments/: só o Codex.
+audits/: o Claude Code, apenas relatórios.
+Especificações e documentação: o ChatGPT prepara e o Diretor aprova.
+Vetores canônicos congelados: somente leitura depois do gate correspondente.
+7.1 Experimentos do Codex
+O Codex mede, não programa o produto. Cada experimento só roda para candidatos que o Diretor aprovou na lista curta.
+ID | Experimento | Pergunta que responde | Questão | Fase
+X1 | Formatos textuais aprovados (hexadecimal, base32, base64url) | Qual o tamanho real, o tempo de codificar e decodificar e a ergonomia de copiar, colar e quebrar linha de cada um? | Q1 | BP-F0B
+X2 | Soma segmentada (leitura inversa e duas passagens) contra inteiro monolítico | Quanto tempo e pico de memória cada estratégia usa em tamanhos progressivos? | Q3 | BP-F0B
+X3 | Custo do envelope: checksum sobre o texto do índice e sobre os bytes reconstruídos | Qual o overhead em tamanho e tempo de cada opção aprovada? | Q2 | BP-F0B
+X4 | Escala com conteúdo aleatório ou não repetido | A partir de que tamanho tempo e memória deixam de ser práticos? | Q4, Q7 | BP-F0B e BP-F3
+X5 | Entrada hostil: endereços enormes, malformados e no limite +1 | A rejeição acontece antes de alocar memória proporcional à entrada? | Q7 | BP-F3
+X6 | Casos reais: texto e código do Diretor | Qual a razão entre o tamanho do endereço e o do arquivo em dados do dia a dia? | Q1, Q4 | BP-F0B
+X7 | Repetir X2, X4 e X5 em cada plataforma aprovada na Q6 | Os números e o comportamento valem em cada plataforma? | Q6, Q7 | antes do BP-G3
+O Codex escreve só em experiments/ e entrega, por experimento: comando exato, caminho e SHA-256 dos arquivos de teste, sistema operacional e versão do runtime, seed, saída bruta, JSON ou CSV e conclusão limitada ao que foi medido. O pico de memória é o do processo (RSS no Linux; Working Set e commit no Windows), nunca só tracemalloc. Teste de escala com bloco repetido não vale (erro A-06 da V1).
+8. Fases, gates e primeira rodada
+O OpenCode só escreve código depois do BP-G0B, e cada fase termina num gate liberado pelo Diretor.
+roadmap · 7 fases, 7 gates
+Cada entrega passa por auditoria em cópia antes do gate seguinte. A ordem de trabalho é:
+ChatGPT: escreve a BP1 preliminar como instrução ao OpenCode, a partir das derivações deste dossiê e das questões Q1 a Q8.
+Claude: revisa a matemática e procura ambiguidades.
+Diretor: aprova a lista curta de formatos, checksums e estratégias a medir (BP-G0A).
+Codex: executa X1 a X6 só para os candidatos aprovados e reporta trade-offs, sem escolher.
+Claude: revisa se as conclusões do Codex não excedem os dados medidos.
+ChatGPT: explica ao Diretor as opções e os trade-offs dos relatórios do Codex e do parecer do Claude; não analisa nem escolhe.
+Diretor: escolhe e congela o contrato BP1 (BP-G0B).
+OpenCode: implementa só o núcleo liberado e os testes canônicos; Claude Code audita em cópia; o Diretor aceita ou rejeita.
+Codex: executa X7 nas plataformas aprovadas antes do BP-G3; Claude revisa a interpretação.
+9. Evidência, auditoria e critérios de aceitação
+Nenhuma frase "funciona" vale sem comando executado, saída bruta e arquivos identificados por SHA-256.
+9.1 Protocolo do auditor
+Trabalhar numa cópia descartável da entrega; nada é executado na pasta original, porque compileall e unittest gravam pycache (C-07).
+Listar primeiro o SHA-256 completo de todos os arquivos auditados e compará-lo com o da entrega; se divergir, parar e registrar.
+Rodar e colar a saída bruta e completa de python -m compileall e de python -m unittest -v (ou da suíte aprovada), com o comando exato; usar -I quando a suíte permitir.
+Cada achado traz arquivo:linha exata, função, trecho literal copiado, especificação violada, impacto e, quando possível, reprodução.
+Separar LIDO NO CÓDIGO de REPRODUZIDO POR EXECUÇÃO.
+Sem evidência suficiente, marcar NÃO VERIFICADO; nunca completar a lacuna de memória.
+"Linha aproximada" não é aceita.
+9.2 Critérios de aceitação
+ID | Critério | Estado
+BP-AC01 | A definição de B* e N0 tem prova coerente com a implementação e vetores canônicos | Avaliável em BP-F1
+BP-AC02 | decode(encode(x)) == x em bordas, no teste exaustivo até 2 bytes (a imagem de E é exatamente [0, 65.792], sem repetição) e em aleatórios com seed | Obrigatório
+BP-AC03 | Vazio, NUL, 0xFF, zeros à esquerda, CRLF/LF, bytes arbitrários e UTF-8 inválido são preservados byte a byte | Obrigatório
+BP-AC04 | Uma entrada produz uma única grafia; formas não canônicas (caixa, padding, bits finais, byte zero à esquerda, espaços) são rejeitadas conforme a BP1 | Após BP-F2
+BP-AC05 | O envelope com integridade detecta o conjunto de erros do modelo de ameaça e não é descrito como autenticação | Depende da Q2
+BP-AC06 | Sem banco ou payload externo: um endereço válido contém a informação para reconstruir os bytes | Obrigatório
+BP-AC07 | O parser rejeita acima de MAX_ADDRESS_CHARS antes de decodificar ou alocar proporcionalmente; MAX_OUTPUT_BYTES é checado com o tamanho exato antes de reconstruir | Exige números (Q4, Q7)
+BP-AC08 | Tempo e pico de memória cumprem limiares numéricos definidos pelo Diretor após a medição do Codex | BLOQUEADO até existir número
+BP-AC09 | Os mesmos vetores dão o mesmo resultado em cada plataforma aprovada na Q6 | Obrigatório antes de BP-G3
+BP-AC10 | Entrada malformada, checksum inválido, versão desconhecida e caso gigante falham de forma limpa, sem traceback esperado e sem arquivo parcial | Obrigatório
+BP-AC11 | A UI usa o mesmo service e codec e não duplica a matemática | Após BP-F4
+BP-AC12 | Toda entrega traz SHA-256, comandos, saídas brutas e auditoria independente, feita em cópia, com arquivo:linha exata | Obrigatório
+9.3 Matriz mínima de testes
+Classe | Casos
+Bordas | vazio; 1 byte; 0x00; 0xFF; zeros à esquerda; 2, 255 e 256 bytes
+Exaustivo pequeno | todas as 65.793 sequências de até 2 bytes: a imagem de E é [0, 65.792], sem lacunas nem repetições
+Ordem | ordenar por comprimento e depois por valor dá valores de E consecutivos
+Aleatório | seeds registradas e vários tamanhos
+Endereço textual | canonização, caixa, caracteres inválidos, prefixo, versão, checksum, truncamento, troca de um caractere, quebra de linha dentro do endereço
+Limites | MAX_ADDRESS_CHARS − 1, igual e +1; entrada enorme sem alocação proporcional
+Entrada e saída | saída temporária; falha antes da substituição atômica; sem arquivo parcial
+Decodificação não textual | bytes que não são UTF-8 válido não são exibidos como texto
+Compatibilidade | vetores congelados em cada plataforma aprovada
+Escala | tamanhos progressivos, tempo e pico real do processo
+10. Instruções individuais para repasse
+Cada bloco vai ao componente correspondente junto com este dossiê. O Diretor continua sendo quem libera a tarefa concreta de cada fase.
+10.1 Diretor
+Você é o Diretor da Babel Pura App.
+- Aprove a lista curta de candidatos ANTES dos benchmarks (BP-G0A).
+- Decida Q1 a Q8 quando houver evidência suficiente; recomendação não vira decisão sozinha.
+- Libere um gate por vez.
+- Não aceite "funciona" sem hashes, comandos e saídas brutas.
+- Preserve a separação entre Babel V1 (H2) e Babel Pura (H1).
+10.2 ChatGPT, consultor e arquiteto
+Você é o consultor e arquiteto da Babel Pura App e só instrui: não escreve código, não executa, não mede, não audita, não deriva matemática e não analisa resultados.
+- Escreva a BP1 e as tarefas como instruções claras, a partir do que já está no dossiê (§4 e §5), das medições do Codex e do parecer do Claude; não invente nem altere matemática, formato ou limite.
+- Ao Diretor, explique cada questão aberta (Q1 a Q8) com as opções já levantadas e seus trade-offs; não escolha por ele.
+- Direcione cada assunto ao componente certo: medições ao Codex, matemática ao Claude, código ao OpenCode, auditoria ao Claude Code.
+- Não envie tarefa ampla ao OpenCode antes do BP-G0B.
+- Para cada tarefa, defina arquivos permitidos, critérios, evidência esperada e o que fica fora de escopo.
+- Se encontrar conflito entre documento e implementação, pare e registre a discrepância.
+10.3 OpenCode, engenheiro
+Você edita somente babel_pura/ e tests/ na fase autorizada.
+- Implemente a BP1 aprovada literalmente; não invente formato, checksum, limite ou codificação.
+- Use fileio.py, nunca io.py.
+- Preserve os bytes sem normalização.
+- Cada teste novo falha quando a regressão correspondente é reintroduzida.
+- Entregue SHA-256 completo, comandos exatos e saída bruta de compileall e unittest -v.
+- Não edite experiments/ e não audite a própria entrega.
+10.4 Claude Code, auditor
+Você é o auditor da Babel Pura App e nunca edita o produto.
+1. Trabalhe numa cópia descartável da entrega.
+2. Liste primeiro o SHA-256 completo dos arquivos e confirme com a entrega; se divergirem, pare.
+3. Rode e cole a saída bruta completa de compileall e unittest -v, com o comando exato.
+4. Todo achado traz arquivo:linha EXATA, função e trecho literal; "linha aproximada" não vale.
+5. Separe LIDO NO CÓDIGO de REPRODUZIDO POR EXECUÇÃO.
+6. Sem evidência, marque NÃO VERIFICADO.
+7. Procure em especial: perda de zeros à esquerda, grafia não canônica aceita, normalização de bytes, testes tautológicos, consumo não limitado, parser permissivo e divergência entre UI e núcleo.
+8. Não sugira recursos novos.
+10.5 Codex, pesquisador
+Você é o pesquisador experimental da Babel Pura App e escreve somente em experiments/. Você mede; não programa o produto e não escolhe a opção final.
+- Execute os experimentos X1 a X7 (tabela do §7.1), só para os candidatos que o Diretor aprovou na lista curta.
+- Compare tamanho textual real, tempo e pico real de memória do processo (não só tracemalloc).
+- No X2, teste a soma segmentada (leitura inversa e duas passagens) contra o inteiro monolítico e reporte memória, não só tempo.
+- Use conteúdo aleatório ou não repetido nos testes de escala; um bloco repetido não prova nada (erro A-06 da V1).
+- Decimal não faz parte da V1.
+- Entregue, por experimento: comando exato, caminho e SHA-256 dos arquivos de teste, sistema operacional e versão do runtime, seed, saída bruta, JSON ou CSV e conclusão limitada ao que foi medido.
+- Reporte os trade-offs; a decisão é do Diretor.
+10.6 Claude, revisor científico
+Você é o revisor científico.
+- Verifique se R_n particiona N0 e se o vazio e os zeros à esquerda estão corretos.
+- Verifique a separação entre a bijeção do núcleo e o conjunto de endereços textuais válidos.
+- Não chame checksum de autenticação nem afirme detecção perfeita.
+- Confirme que as conclusões experimentais não excedem os dados.
+- Rotule cada afirmação: MEDIDO, DERIVADO, INFERIDO, PROPOSTA, HIPÓTESE, NÃO VERIFICADO ou DECISÃO DO DIRETOR.
+10.7 Aider
+Permanece fora do fluxo. Não atribuir código, manutenção ou correções sem decisão explícita do Diretor.
+11. Riscos, handoff e limites declarados
+O maior risco é um erro de digitação virar outro arquivo sem aviso: no núcleo H1 isso é garantido, não apenas possível.
+11.1 Registro de riscos
+Risco | Natureza | Mitigação
+R1. Erro de digitação vira outro conteúdo | GARANTIDO no núcleo sem envelope | Envelope canônico com checksum; o checksum não elimina toda colisão
+R2. Endereço textual maior que o arquivo | DERIVADO (de 1,33× a 2×) | Verificação prévia e UX mostrando o tamanho; comparar formatos
+R3. Decimal impraticável | DERIVADO, com histórico medido na V1 | Excluído da V1
+R4. Memória proporcional ao arquivo no inteiro monolítico | INFERIDO | O Codex mede; BP1 escolhe leitura inversa ou duas passagens (C-01, C-02)
+R5. Parser de endereço gigante esgota memória | Robustez e segurança | Limites antes de decodificar; testes de +1 e entrada hostil
+R6. io.py sombreia a biblioteca padrão | Importação | Usar fileio.py
+R7. Normalização de texto | Integridade | Núcleo só em bytes; política de codificação na Q8
+R8. Auditor inventa linha ou altera a árvore auditada | Processo | SHA-256 primeiro, linha exata, cópia descartável
+R9. Benchmark antes da decisão dos candidatos | Desperdício | O Diretor aprova a lista curta antes do Codex
+R10. Plataforma indefinida | Requisitos | Q6; BP-AC09 vale para as plataformas aprovadas
+R11. Editor ou e-mail altera o endereço (quebra de linha, caixa) | INFERIDO | Política de espaços e caixa no envelope (§5.2) e testes
+11.2 Protocolo de handoff
+Quem termina uma tarefa entrega artefatos e evidência, não só um resumo.
+O Diretor encaminha a entrega ao próximo componente ou autoriza o ChatGPT a preparar o handoff.
+O componente seguinte confirma a versão pelos hashes antes de analisar; se divergirem, para e registra a discrepância.
+Achados que mudam o escopo voltam ao Diretor; auditor e engenheiro não decidem em silêncio.
+Depois de um gate aprovado, congelar os vetores canônicos e as decisões de formato correspondentes.
+11.3 Modelo obrigatório de entrega
+Tarefa / fase:
+Data:
+Sistema operacional e runtime:
+Gate relacionado:
+Diretório exato:
+Arquivos alterados ou auditados:
+SHA-256 completo de cada arquivo (listar antes da auditoria):
+Comandos exatos:
+Saída bruta de compileall:
+Saída bruta de unittest -v:
+Testes de regressão:
+Medições (entrada, método, pico, unidade):
+Achados com arquivo:linha exata e trecho literal:
+Não feito / não testado / limitações:
+Conclusão limitada ao que a evidência demonstra:
+11.4 Limites declarados da v3
+Nenhum código nem benchmark da Babel Pura foi produzido ou executado por este documento.
+A prova de §4.2 foi conferida algebricamente pelo revisor, sem execução.
+O dossiê inicial e o v2 citam um "Dossiê de Transição" da V1 que o revisor não viu; essas referências não foram conferidas.
+Os valores numéricos de escala, memória e entrada ainda exigem medição e decisão.
+A Babel V1 existente não foi modificada.
+12. Decisões em aberto e próxima ação
+Oito questões continuam abertas e nenhuma é decidida por este dossiê. A numeração é a da v2; a Q5 do dossiê inicial (texto versus bytes) é hoje a Q8.
+ID | Questão | Situação
+Q1 | Qual formato textual canônico: hexadecimal, base32 ou base64url? | ABERTA; o Diretor aprova a lista curta antes das medições
+Q2 | Qual checksum, com quantos bits, cobrindo o texto do índice, os bytes reconstruídos ou ambos? | ABERTA; ter algum mecanismo de integridade é recomendado
+Q3 | Qual estratégia para arquivos grandes: soma e subtração segmentadas (com leitura inversa ou duas passagens), inteiro monolítico ou combinação? | ABERTA; a segmentação é viável, falta o contrato exato e a medição
+Q4 | Qual tamanho máximo na primeira versão e o que acontece acima dele? | ABERTA
+Q5 | Qual a sintaxe do envelope: prefixo, versão, separadores, marca do vazio e política de espaços e quebras de linha? | ABERTA
+Q6 | Qual linguagem, runtime e plataformas-alvo do app? | ABERTA; nenhuma escolha presumida
+Q7 | Quais os valores de MAX_ADDRESS_CHARS, MAX_OUTPUT_BYTES e dos limiares de tempo e memória? | ABERTA; obrigatória antes de BP-G3
+Q8 | No modo Texto, qual codificação e qual política de erro? | ABERTA; UTF-8 estrito e visível é candidato, não decisão
+O ChatGPT escreve a BP1 como instrução ao OpenCode, a partir das derivações deste dossiê e das questões Q1 a Q8, e a entrega ao Claude para revisão. A lista curta de candidatos a medir está em §4.3, §5.3 e §5.4. O Diretor aprova a lista curta (BP-G0A) antes de qualquer benchmark do Codex. O OpenCode não recebe a ordem "crie o app completo": a primeira tarefa de código só existe depois do BP-G0B, com o contrato BP1 congelado.

@@ -1,0 +1,8 @@
+{
+  "source_path": "C:\\Users\\User PC\\Downloads\\01f0665c-8b09-45e4-941f-c52d4a9f8653.tmp",
+  "source_docx_sha256": "528826faec1f7dffdfa9bf128d69a37d90ba058625f9994d39dae993f06d3743",
+  "extraction": "document body paragraphs and table rows in order; cells joined with ' | '; UTF-8 with LF separators",
+  "text_path": "C:\\OllamaLimit\\OllamaLimit\\Sei l\u00e1\\Projeto TTC\\Babel Pura TTC\\experiments\\fixtures\\director_dossier_text_utf8.txt",
+  "text_bytes": 31116,
+  "text_sha256": "50c30e1fd13cadc813f13153499ac11b8354df039187f9fe8ed60cac57767f87"
+}

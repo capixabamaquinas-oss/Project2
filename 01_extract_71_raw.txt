@@ -1,0 +1,4 @@
+dossier=C:\Users\User PC\Downloads\Dossi� Operacional � Babel Pura App v3 (revisado).docx
+paragraph_count=435
+7.1_match_indexes=[]
+No section 7.1 heading/text found

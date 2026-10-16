@@ -1,0 +1,2 @@
+$run = 'C:\OllamaLimit\Sei l' + [char]0x00E1 + '\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015'
+& (Join-Path $run '00_baseline.ps1') 2>&1 | Tee-Object -FilePath (Join-Path $run '00_baseline_raw.txt')

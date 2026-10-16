@@ -1,0 +1,38 @@
+X1 PASS size=1024 format=hex-lower chars=2048 encode_s=0.000003 decode_s=0.000003
+X1 PASS size=1024 format=base32-no-padding chars=1639 encode_s=0.000111 decode_s=0.000159
+X1 PASS size=1024 format=base64url-no-padding chars=1366 encode_s=0.000007 decode_s=0.000009
+X1 PASS size=16384 format=hex-lower chars=32768 encode_s=0.000027 decode_s=0.000020
+X1 PASS size=16384 format=base32-no-padding chars=26215 encode_s=0.001643 decode_s=0.002419
+X1 PASS size=16384 format=base64url-no-padding chars=21846 encode_s=0.000065 decode_s=0.000069
+X1 PASS size=262144 format=hex-lower chars=524288 encode_s=0.000519 decode_s=0.000448
+X1 PASS size=262144 format=base32-no-padding chars=419431 encode_s=0.028273 decode_s=0.047133
+X1 PASS size=262144 format=base64url-no-padding chars=349526 encode_s=0.001160 decode_s=0.001179
+X1 PASS size=1048576 format=hex-lower chars=2097152 encode_s=0.001953 decode_s=0.002080
+X1 PASS size=1048576 format=base32-no-padding chars=1677722 encode_s=0.138163 decode_s=0.176403
+X1 PASS size=1048576 format=base64url-no-padding chars=1398102 encode_s=0.005812 decode_s=0.005059
+X1 PASS size=4194304 format=hex-lower chars=8388608 encode_s=0.010104 decode_s=0.008879
+X1 PASS size=4194304 format=base32-no-padding chars=6710887 encode_s=0.514038 decode_s=0.686143
+X1 PASS size=4194304 format=base64url-no-padding chars=5592406 encode_s=0.021177 decode_s=0.021825
+X2/X4 PASS size=1024 method=monolithic out=1024 elapsed_median_s=0.000682 peak_ws=21839872 peak_commit=14954496
+X2/X4 PASS size=1024 method=segmented-reverse out=1024 elapsed_median_s=0.001529 peak_ws=21843968 peak_commit=14716928
+X2/X4 PASS size=1024 method=segmented-two-pass out=1024 elapsed_median_s=0.000867 peak_ws=21905408 peak_commit=15261696
+X2/X4 PASS size=16384 method=monolithic out=16384 elapsed_median_s=0.000903 peak_ws=21852160 peak_commit=15048704
+X2/X4 PASS size=16384 method=segmented-reverse out=16384 elapsed_median_s=0.002775 peak_ws=21757952 peak_commit=14897152
+X2/X4 PASS size=16384 method=segmented-two-pass out=16384 elapsed_median_s=0.003873 peak_ws=21811200 peak_commit=14753792
+X2/X4 PASS size=262144 method=monolithic out=262144 elapsed_median_s=0.002354 peak_ws=23142400 peak_commit=15839232
+X2/X4 PASS size=262144 method=segmented-reverse out=262144 elapsed_median_s=0.027778 peak_ws=22110208 peak_commit=14983168
+X2/X4 PASS size=262144 method=segmented-two-pass out=262144 elapsed_median_s=0.036626 peak_ws=22040576 peak_commit=14745600
+X2/X4 PASS size=1048576 method=monolithic out=1048576 elapsed_median_s=0.008469 peak_ws=26267648 peak_commit=19447808
+X2/X4 PASS size=1048576 method=segmented-reverse out=1048576 elapsed_median_s=0.105642 peak_ws=21938176 peak_commit=14733312
+X2/X4 PASS size=1048576 method=segmented-two-pass out=1048576 elapsed_median_s=0.165063 peak_ws=22024192 peak_commit=15425536
+X2/X4 PASS size=4194304 method=monolithic out=4194304 elapsed_median_s=0.036255 peak_ws=39464960 peak_commit=32706560
+X2/X4 PASS size=4194304 method=segmented-reverse out=4194304 elapsed_median_s=0.484382 peak_ws=22069248 peak_commit=14852096
+X2/X4 PASS size=4194304 method=segmented-two-pass out=4194304 elapsed_median_s=0.629125 peak_ws=22118400 peak_commit=14995456
+X6_TEXT_ONLY PASS format=hex-lower input=31116 chars=62232
+X6_TEXT_ONLY PASS format=base32-no-padding input=31116 chars=49786
+X6_TEXT_ONLY PASS format=base64url-no-padding input=31116 chars=41488
+EDGE_VECTORS PASS count=11
+SUMMARY X1=15 X2_X4=15 X6_TEXT=3
+BLOCKED X3=checksum primitive/width; X5=Q7; X7=Q6; X6 code sample unavailable; X1 ergonomics=Q5
+RESULTS_JSON=experiments/results.json
+REPORT=experiments/REPORT.md

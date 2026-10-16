@@ -1,0 +1,51 @@
+X1 PASS size=1024 format=hex-lower chars=2048 encode_s=0.000008 decode_s=0.000003
+X1 PASS size=1024 format=base32-no-padding chars=1639 encode_s=0.000187 decode_s=0.000169
+X1 PASS size=1024 format=base64url-no-padding chars=1366 encode_s=0.000008 decode_s=0.000008
+X1 PASS size=16384 format=hex-lower chars=32768 encode_s=0.000026 decode_s=0.000020
+X1 PASS size=16384 format=base32-no-padding chars=26215 encode_s=0.001645 decode_s=0.002406
+X1 PASS size=16384 format=base64url-no-padding chars=21846 encode_s=0.000082 decode_s=0.000077
+X1 PASS size=262144 format=hex-lower chars=524288 encode_s=0.000733 decode_s=0.000615
+X1 PASS size=262144 format=base32-no-padding chars=419431 encode_s=0.027614 decode_s=0.044877
+X1 PASS size=262144 format=base64url-no-padding chars=349526 encode_s=0.001208 decode_s=0.001143
+X1 PASS size=1048576 format=hex-lower chars=2097152 encode_s=0.002081 decode_s=0.002107
+X1 PASS size=1048576 format=base32-no-padding chars=1677722 encode_s=0.126721 decode_s=0.176030
+Traceback (most recent call last):
+X1 PASS size=1048576 format=base64url-no-padding chars=1398102 encode_s=0.004848 decode_s=0.005078
+X1 PASS size=4194304 format=hex-lower chars=8388608 encode_s=0.008428 decode_s=0.008369
+X1 PASS size=4194304 format=base32-no-padding chars=6710887 encode_s=0.505949 decode_s=0.717726
+X1 PASS size=4194304 format=base64url-no-padding chars=5592406 encode_s=0.024781 decode_s=0.021454
+X2/X4 PASS size=1024 method=monolithic out=1024 elapsed_median_s=0.000630 peak_ws=21884928 peak_commit=14958592
+X2/X4 PASS size=1024 method=segmented-reverse out=1024 elapsed_median_s=0.001937 peak_ws=21807104 peak_commit=14864384
+X2/X4 PASS size=1024 method=segmented-two-pass out=1024 elapsed_median_s=0.001177 peak_ws=22085632 peak_commit=14987264
+X2/X4 PASS size=16384 method=monolithic out=16384 elapsed_median_s=0.000706 peak_ws=21823488 peak_commit=14594048
+X2/X4 PASS size=16384 method=segmented-reverse out=16384 elapsed_median_s=0.003759 peak_ws=21729280 peak_commit=14983168
+X2/X4 PASS size=16384 method=segmented-two-pass out=16384 elapsed_median_s=0.003185 peak_ws=21872640 peak_commit=14835712
+X2/X4 PASS size=262144 method=monolithic out=262144 elapsed_median_s=0.002711 peak_ws=22900736 peak_commit=15790080
+X2/X4 PASS size=262144 method=segmented-reverse out=262144 elapsed_median_s=0.030492 peak_ws=22298624 peak_commit=14995456
+X2/X4 PASS size=262144 method=segmented-two-pass out=262144 elapsed_median_s=0.047105 peak_ws=21835776 peak_commit=14712832
+X2/X4 PASS size=1048576 method=monolithic out=1048576 elapsed_median_s=0.008139 peak_ws=26607616 peak_commit=19947520
+X2/X4 PASS size=1048576 method=segmented-reverse out=1048576 elapsed_median_s=0.110743 peak_ws=22286336 peak_commit=15044608
+X2/X4 PASS size=1048576 method=segmented-two-pass out=1048576 elapsed_median_s=0.177568 peak_ws=21995520 peak_commit=14934016
+X2/X4 PASS size=4194304 method=monolithic out=4194304 elapsed_median_s=0.036280 peak_ws=39550976 peak_commit=32755712
+X2/X4 PASS size=4194304 method=segmented-reverse out=4194304 elapsed_median_s=0.444762 peak_ws=22192128 peak_commit=15622144
+X2/X4 PASS size=4194304 method=segmented-two-pass out=4194304 elapsed_median_s=0.615973 peak_ws=22294528 peak_commit=15507456
+  File "C:\OllamaLimit\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\run_experiments.py", line 594, in <module>
+    main_run(parsed)
+  File "C:\OllamaLimit\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\run_experiments.py", line 464, in main_run
+    x6_text_meta = extract_docx_text(dossier, text_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OllamaLimit\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\run_experiments.py", line 324, in extract_docx_text
+    document = Document(str(source))
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User PC\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\docx\api.py", line 27, in Document
+    document_part = cast("DocumentPart", Package.open(docx).main_document_part)
+                                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User PC\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\docx\opc\package.py", line 126, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User PC\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User PC\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'C:\Users\User PC\Downloads\01f0665c-8b09-45e4-941f-c52d4a9f8653.tmp'

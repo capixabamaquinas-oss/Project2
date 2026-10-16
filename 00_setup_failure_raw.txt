@@ -1,0 +1,3 @@
+First setup invocation failed before the baseline script ran because the outer PowerShell did not have the inner script's $python variable:
+InvalidOperation: The expression after '&' in a pipeline element produced an object that was not valid. It must result in a command name, a script block, or a CommandInfo object.
+This failure is retained; no source files were modified.

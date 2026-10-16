@@ -1,0 +1,3 @@
+Unknown option: -N
+usage: C:\Users\User PC\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.

@@ -1,0 +1,4 @@
+  File "C:\OllamaLimit\Sei l�\Projeto TTC\Babel Pura TTC\experiments\X1-X6_20261015\00_baseline.ps1", line 1
+    $ErrorActionPreference = 'Stop'
+    ^
+SyntaxError: invalid syntax
